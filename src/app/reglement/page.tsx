@@ -26,12 +26,14 @@ export default function ReglementPage() {
     }))
     .filter((cat) => cat.rules.length > 0 || search === "");
 
+  const totalMatchCount = filtered.reduce((acc, cat) => acc + cat.rules.length, 0);
+
   return (
     <div className="min-h-screen bg-[#0a0a0a]">
       <PageHeader
-        badge="Rglement"
-        title="Rglement du Serveur"
-        description="Ensemble des règles applicables sur DrillTown WL"
+        badge="Règlement"
+        title="Règlement du Serveur"
+        description="Ensemble des règles officielles de DrillTown RP"
       />
 
       <section className="section-padding pt-0">
@@ -43,16 +45,21 @@ export default function ReglementPage() {
             className="relative mb-8"
           >
             <Search
-              className="absolute left-4 top-1/2 -translate-y-1/2 text-[#9ca3af]"
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-[#7C3AED]"
               size={20}
             />
             <input
               type="text"
-              placeholder="Rechercher une règle..."
+              placeholder="Rechercher une règle (ex: Whitelist, HRP, FearRP, Wipe...)..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-12 pr-4 py-3 rounded-xl bg-[#1a1a1a] border border-[#2a2a2a] text-white placeholder-[#9ca3af] focus:outline-none focus:border-[#7C3AED] focus:ring-1 focus:ring-[#7C3AED] transition-all"
+              className="w-full pl-12 pr-28 py-4 rounded-xl bg-[#1a1a1a] border border-[#2a2a2a] text-white placeholder-[#9ca3af] focus:outline-none focus:border-[#7C3AED] focus:ring-2 focus:ring-[#7C3AED]/30 transition-all text-base shadow-lg"
             />
+            {search && (
+              <span className="absolute right-4 top-1/2 -translate-y-1/2 px-3 py-1 bg-[#7C3AED]/20 border border-[#7C3AED]/40 text-[#A855F7] text-xs font-semibold rounded-full">
+                {totalMatchCount} résultat{totalMatchCount > 1 ? "s" : ""}
+              </span>
+            )}
           </motion.div>
 
           <div className="space-y-4">
@@ -63,7 +70,7 @@ export default function ReglementPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: i * 0.05 }}
               >
-                <Accordion type="single" collapsible>
+                <Accordion type="single" collapsible defaultValue={search ? category.name : undefined}>
                   <AccordionItem
                     value={category.name}
                     className="border border-[#2a2a2a] rounded-xl overflow-hidden bg-[#1a1a1a] hover:border-[#7C3AED]/50 transition-all"

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
@@ -8,17 +7,6 @@ import { PageTransition } from "@/components/layout/page-transition";
 import { BackToTop } from "@/components/shared/back-to-top";
 import { CustomCursor } from "@/components/shared/custom-cursor";
 import { siteConfig } from "@/config/config";
-
-const bebasNeue = Bebas_Neue({
-  weight: "400",
-  variable: "--font-bebas",
-  subsets: ["latin"],
-});
-
-const plusJakarta = Plus_Jakarta_Sans({
-  variable: "--font-sans",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://drilltown.fr"),
@@ -83,6 +71,8 @@ export const metadata: Metadata = {
   },
 };
 
+import { AudioPlayer } from "@/components/shared/audio-player";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -91,7 +81,7 @@ export default function RootLayout({
   return (
     <html lang="fr" data-scroll-behavior="smooth">
       <body
-        className={`${plusJakarta.variable} ${bebasNeue.variable} antialiased min-h-screen bg-[#0a0a0a]`}
+        className="antialiased min-h-screen bg-[#0a0a0a]"
       >
         <script
           type="application/ld+json"
@@ -133,6 +123,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <BackToTop />
+        <AudioPlayer />
         <CustomCursor />
       </body>
     </html>

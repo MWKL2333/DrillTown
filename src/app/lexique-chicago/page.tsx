@@ -142,7 +142,7 @@ export default function LexiqueChicagoPage() {
             >
               <BookOpen size={48} className="mx-auto text-[#9ca3af] mb-4" />
               <p className="text-[#9ca3af]">
-                Aucun terme trouv pour votre recherche.
+                Aucun terme trouvé pour votre recherche.
               </p>
             </motion.div>
           )}
