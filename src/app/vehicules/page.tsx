@@ -22,6 +22,7 @@ const sampleVehicles = [
     tag: "Import Exclusif",
     desc: "Le SUV légendaire de la scène Chicago Drill. Puissance brute et tenue de route maximale.",
     color: "#7C3AED",
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80",
   },
   {
     name: "Dodge Charger SRT Hellcat Widebody",
@@ -31,6 +32,7 @@ const sampleVehicles = [
     tag: "Véhicule Faction",
     desc: "V8 HEMI suralimenté. Véhicule indispensable pour les courses-poursuites et interventions lourdes.",
     color: "#ef4444",
+    image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
   },
   {
     name: "Mercedes-AMG G63 Brabus 800",
@@ -40,6 +42,7 @@ const sampleVehicles = [
     tag: "Luxe & VIP",
     desc: "Blindé, imposant et customisé. Confort absolu pour les leaders de gangs et chefs d'entreprise.",
     color: "#f59e0b",
+    image: "https://images.unsplash.com/photo-1520050206274-a1ae44613e6d?auto=format&fit=crop&w=800&q=80",
   },
   {
     name: "Lamborghini Urus Performante",
@@ -49,6 +52,7 @@ const sampleVehicles = [
     tag: "Supercar",
     desc: "Aérodynamisme affûté et accélération foudroyante sur l'asphalte de Chicago.",
     color: "#22c55e",
+    image: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80",
   },
   {
     name: "Chevy Impala 1964 Custom Lowrider",
@@ -58,6 +62,7 @@ const sampleVehicles = [
     tag: "Classic RP",
     desc: "Système de suspensions hydrauliques ajustables en direct. Style rétro emblématique.",
     color: "#A855F7",
+    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80",
   },
   {
     name: "Yamaha YZF-R1M & Cross YZ450F",
@@ -67,6 +72,7 @@ const sampleVehicles = [
     tag: "Moto Bikelife",
     desc: "Conçues pour la Bikelife urbaine, les acrobaties et l'évasion rapide en ruelle.",
     color: "#3b82f6",
+    image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
   },
 ];
 
@@ -122,40 +128,55 @@ export default function VehiculesPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: i * 0.05 }}
                 whileHover={{ y: -5 }}
-                className="p-6 rounded-2xl bg-[#1a1a1a] border border-[#2a2a2a] hover:border-[#7C3AED]/50 transition-all flex flex-col justify-between group shadow-xl"
+                className="rounded-2xl bg-[#1a1a1a] border border-[#2a2a2a] hover:border-[#7C3AED]/50 transition-all flex flex-col justify-between group shadow-xl overflow-hidden"
               >
                 <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <span
-                      className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border"
-                      style={{
-                        backgroundColor: `${vehicle.color}15`,
-                        borderColor: `${vehicle.color}40`,
-                        color: vehicle.color,
-                      }}
-                    >
-                      {vehicle.tag}
-                    </span>
-                    <Flame size={16} className="text-[#7C3AED] group-hover:scale-125 transition-transform" />
+                  <div className="relative h-48 w-full overflow-hidden bg-[#0a0a0a]">
+                    <img
+                      src={vehicle.image}
+                      alt={vehicle.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-transparent to-transparent" />
+                    
+                    <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
+                      <span
+                        className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border backdrop-blur-md"
+                        style={{
+                          backgroundColor: `${vehicle.color}30`,
+                          borderColor: `${vehicle.color}60`,
+                          color: "#ffffff",
+                        }}
+                      >
+                        {vehicle.tag}
+                      </span>
+                      <div className="w-8 h-8 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-[#7C3AED]">
+                        <Flame size={16} className="group-hover:scale-125 transition-transform" />
+                      </div>
+                    </div>
                   </div>
 
-                  <h3 className="text-white font-bold text-lg mb-2 group-hover:text-[#A855F7] transition-colors">
-                    {vehicle.name}
-                  </h3>
+                  <div className="p-6">
+                    <h3 className="text-white font-bold text-lg mb-2 group-hover:text-[#A855F7] transition-colors">
+                      {vehicle.name}
+                    </h3>
 
-                  <p className="text-[#9ca3af] text-xs leading-relaxed mb-6">
-                    {vehicle.desc}
-                  </p>
+                    <p className="text-[#9ca3af] text-xs leading-relaxed mb-6">
+                      {vehicle.desc}
+                    </p>
+                  </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3 pt-4 border-t border-[#2a2a2a]">
-                  <div className="flex items-center gap-2">
-                    <Gauge size={14} className="text-[#7C3AED]" />
-                    <span className="text-white text-xs font-semibold">{vehicle.speed}</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Zap size={14} className="text-amber-400" />
-                    <span className="text-white text-xs font-semibold">0-100: {vehicle.accel}</span>
+                <div className="px-6 pb-6 pt-0">
+                  <div className="grid grid-cols-2 gap-3 pt-4 border-t border-[#2a2a2a]">
+                    <div className="flex items-center gap-2">
+                      <Gauge size={14} className="text-[#7C3AED]" />
+                      <span className="text-white text-xs font-semibold">{vehicle.speed}</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Zap size={14} className="text-amber-400" />
+                      <span className="text-white text-xs font-semibold">0-100: {vehicle.accel}</span>
+                    </div>
                   </div>
                 </div>
               </motion.div>
