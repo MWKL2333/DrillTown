@@ -1,0 +1,149 @@
+{
+  "lastUpdated": "2025-01-01",
+  "terms": [
+    {
+      "term": "RP",
+      "definition": "Roleplay - action de jouer un rôle dans un univers fictif. Chaque joueur incarne un personnage avec sa propre histoire."
+    },
+    {
+      "term": "HRP",
+      "definition": "Hors Roleplay - tout ce qui est extérieur à l'univers du jeu. Utilisé pour communiquer entre joueurs sans casser l'immersion."
+    },
+    {
+      "term": "Fear RP",
+      "definition": "Règle obligeant un joueur à roleplay la peur de la mort. Face à une menace armée, vous devez obéir et montrer des signes de panique."
+    },
+    {
+      "term": "NLR",
+      "definition": "New Life Rule - après une mort RP, vous perdez la mémoire des événements précédant votre mort et ne pouvez pas retourner sur les lieux."
+    },
+    {
+      "term": "MG",
+      "definition": "Metagaming - utiliser des informations obtenues hors jeu (Discord, stream, etc.) dans le jeu pour obtenir un avantage."
+    },
+    {
+      "term": "PG",
+      "definition": "Powergaming - forcer une action sur un autre joueur sans lui laisser la possibilité de réagir ou d'y répondre."
+    },
+    {
+      "term": "Freekill",
+      "definition": "Action de tuer un joueur sans raison RP valable. Strictement interdit."
+    },
+    {
+      "term": "Free Punch",
+      "definition": "Action de frapper un joueur sans raison RP ou provocation préalable."
+    },
+    {
+      "term": "Combat Log",
+      "definition": "Se déconnecter intentionnellement pendant un combat, une poursuite ou une scène RP pour éviter les conséquences."
+    },
+    {
+      "term": "Safezone",
+      "definition": "Zone sécurisée où toute action violente est interdite. Exemples : hôpital, commissariat, mairie."
+    },
+    {
+      "term": "Pain RP",
+      "definition": "Fait de roleplay la douleur après une blessure. Vous devez agir en fonction de la gravité de vos blessures."
+    },
+    {
+      "term": "Mass RP",
+      "definition": "Scénario impliquant un grand nombre de joueurs (émeute, attaque de masse) qui nécessite une supervision du staff."
+    },
+    {
+      "term": "Win RP",
+      "definition": "Attitude consistant à chercher à gagner à tout prix au détriment de la qualité du roleplay."
+    },
+    {
+      "term": "VoL",
+      "definition": "Value of Life - principe selon lequel la vie de votre personnage a de la valeur et ne doit pas être risquée inutilement."
+    },
+    {
+      "term": "CJ",
+      "definition": "Création de personnage. Menu permettant de personnaliser l'apparence, les vêtements et les traits de votre personnage."
+    },
+    {
+      "term": "F6",
+      "definition": "Touche du clavier ouvrant le menu principal du joueur : inventaire, téléphone, actions rapides."
+    },
+    {
+      "term": "F8",
+      "definition": "Touche du clavier ouvrant la console de développement FiveM pour déboguer ou signaler des erreurs."
+    },
+    {
+      "term": "/me",
+      "definition": "Commande RP permettant de décrire une action que votre personnage effectue. Exemple : /me sort son arme."
+    },
+    {
+      "term": "/do",
+      "definition": "Commande RP permettant de décrire l'état d'un objet ou d'une situation. Exemple : /do le coffre est ouvert."
+    },
+    {
+      "term": "/twt",
+      "definition": "Commande de chat RP simulant le réseau social Twitter en jeu. Visible par tous les joueurs connectés."
+    },
+    {
+      "term": "/ad",
+      "definition": "Commande RP pour passer une annonce publique dans le jeu. Utilisé pour les ventes ou services."
+    },
+    {
+      "term": "/report",
+      "definition": "Commande HRP pour signaler un joueur ou un problème au staff. Ne pas utiliser pour du RP."
+    },
+    {
+      "term": "/ooc",
+      "definition": "Commande HRP pour communiquer hors personnage. À utiliser entre parenthèses (( ... ))."
+    },
+    {
+      "term": "Scène",
+      "definition": "Sequence de roleplay continue entre plusieurs joueurs autour d'une situation spécifique."
+    },
+    {
+      "term": "Cooldown",
+      "definition": "Temps d'attente obligatoire entre deux actions. Permet d'éviter les abus et de maintenir l'équilibre."
+    },
+    {
+      "term": "Timer",
+      "definition": "Minuteur définissant la durée d'une action RP ou le temps avant qu'une action puisse être répétée."
+    },
+    {
+      "term": "Fly",
+      "definition": "Mode administrateur permettant de voler dans le jeu. Utilisé uniquement pour les besoins de modération."
+    },
+    {
+      "term": "Noclip",
+      "definition": "Mode administrateur permettant de traverser les murs et objets. Usage strictement réservé au staff."
+    },
+    {
+      "term": "Godmode",
+      "definition": "Mode invincible. Uniquement accessible aux administrateurs pour superviser des événements."
+    },
+    {
+      "term": "Spectate",
+      "definition": "Mode permettant d'observer un joueur sans être vu. Utilisé par le staff pour enquêter."
+    },
+    {
+      "term": "Admin Sit",
+      "definition": "Action de convoquer un joueur en salon privé pour discuter d'un problème ou d'une plainte."
+    },
+    {
+      "term": "Jail",
+      "definition": "Emprisonnement RP d'un joueur par la police. La durée est déterminée par les lois en vigueur."
+    },
+    {
+      "term": "Ban",
+      "definition": "Sanction définitive ou temporaire excluant un joueur du serveur pour non-respect des règles."
+    },
+    {
+      "term": "Kick",
+      "definition": "Déconnexion forcée d'un joueur du serveur. Sanction légère pour infraction mineure."
+    },
+    {
+      "term": "Warn",
+      "definition": "Avertissement officiel notifié au joueur. L'accumulation de warns mène à des sanctions plus graves."
+    },
+    {
+      "term": "Mute",
+      "definition": "Restriction temporaire de la capacité à parler en chat vocal ou écrit."
+    }
+  ]
+}

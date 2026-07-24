@@ -1,0 +1,47 @@
+{
+  "lastUpdated": "2025-01-01",
+  "factions": [
+    {
+      "name": "Police de Chicago (CPD)",
+      "type": "Légal",
+      "description": "Force de police officielle de DrillTown. Chargée de maintenir l'ordre, d'enquêter sur les crimes et d'assurer la sécurité des citoyens. Comprend plusieurs divisions : patrouille, criminelle, trafic et SWAT.",
+      "members": 50,
+      "image": ""
+    },
+    {
+      "name": "EMS - Services Médicaux",
+      "type": "Légal",
+      "description": "Services médicaux d'urgence de DrillTown. Pompiers et ambulanciers intervenant sur les accidents, fusillades et urgences médicales. Neutres et tenus de soigner tout le monde sans discrimination.",
+      "members": 30,
+      "image": ""
+    },
+    {
+      "name": "Gouvernement de DrillTown",
+      "type": "Légal",
+      "description": "Gouvernement municipal de DrillTown. Comprenant le maire, les conseillers et les services administratifs. En charge de la gestion de la ville, des lois et des politiques publiques.",
+      "members": 15,
+      "image": ""
+    },
+    {
+      "name": "Système Judiciaire",
+      "type": "Légal",
+      "description": "Système judiciaire de DrillTown comprenant les juges, procureurs et avocats. Chargé de juger les affaires criminelles et civiles. Les procès sont publics et ouverts à tous les citoyens.",
+      "members": 20,
+      "image": ""
+    },
+    {
+      "name": "Journalisme et Médias",
+      "type": "Légal",
+      "description": "Presse locale de DrillTown. Journalistes, reporters et cameramen couvrant l'actualité de la ville. Diffusion d'informations via /twt et bulletins d'information. Accès spécial aux scènes de crime.",
+      "members": 15,
+      "image": ""
+    },
+    {
+      "name": "Transport et Logistique",
+      "type": "Légal",
+      "description": "Sociétés de transport et de logistique de DrillTown. Livraisons, transport de marchandises et mobilité urbaine. Inclut les livreurs, chauffeurs de bus et transporteurs de fonds.",
+      "members": 25,
+      "image": ""
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2025-01-01",
+  "articles": [
+    {
+      "id": 1,
+      "title": "Lancement Officiel de DrillTown",
+      "date": "2025-01-15",
+      "image": "",
+      "excerpt": "Le serveur DrillTown ouvre officiellement ses portes. Plongez au coeur du Chicago drill RP.",
+      "content": "Après des mois de développement intense, DrillTown est enfin lancé ! Notre serveur FiveM vous propose une expérience RP unique centrée sur l'univers du Chicago drill. Avec des scripts personnalisés, une map détaillée et une communauté déjà en pleine croissance, nous sommes fiers d'annoncer l'ouverture officielle. Rejoignez-nous dès maintenant pour faire partie de l'aventure.",
+      "author": "Kane"
+    },
+    {
+      "id": 2,
+      "title": "Mise à Jour 1.1 : Système de Gangs",
+      "date": "2025-02-01",
+      "image": "",
+      "excerpt": "Nouveau système de gangs complet avec territoires, guerres et hiérarchie.",
+      "content": "La mise à jour 1.1 apporte un système de gangs révolutionnaire. Chaque gang peut désormais claim des territoires, déclarer des guerres et établir une hiérarchie interne. Les chefs de gangs disposent d'outils de gestion avancés. Les invasions de territoire nécessitent désormais une validation RP préalable. De nouvelles zones de spawn gang ont également été ajoutées.",
+      "author": "Marcus"
+    },
+    {
+      "id": 3,
+      "title": "Événement : La Guerre des Cartels",
+      "date": "2025-02-20",
+      "image": "",
+      "excerpt": "Un événement RP majeur secoue DrillTown avec l'arrivée des cartels mexicains.",
+      "content": "Un événement spécial aura lieu ce week-end : la Guerre des Cartels. Les cartels mexicains tentent d'étendre leur influence dans les rues de DrillTown. Les gangs locaux devront choisir leur camp : s'allier avec les nouveaux arrivants ou les combattre. Des récompenses exclusives sont à gagner pour les participants. Rendez-vous sur Discord pour vous inscrire.",
+      "author": "Viktor"
+    },
+    {
+      "id": 4,
+      "title": "Nouveau Job : Journaliste",
+      "date": "2025-03-10",
+      "image": "",
+      "excerpt": "Le métier de journaliste fait son arrivée sur DrillTown avec des fonctionnalités uniques.",
+      "content": "Le nouveau job Journaliste est disponible ! Incarnez un reporter au coeur de l'action. Équipé d'un micro, d'une caméra et d'un drone, vous pourrez couvrir les événements en direct, interviewer les citoyens et diffuser vos reportages. Les journalistes ont un accès spécial aux scènes de crime et peuvent influencer l'opinion publique à travers leurs articles.",
+      "author": "Ash"
+    },
+    {
+      "id": 5,
+      "title": "Tournoi de Paintball RP",
+      "date": "2025-03-25",
+      "image": "",
+      "excerpt": "Premier tournoi de paintball inter-gangs organisé par la ville de DrillTown.",
+      "content": "La ville de DrillTown organise son premier tournoi de paintball inter-gangs ! Une compétition amicale pour régler les différends sans effusion de sang. Les équipes de 5 joueurs peuvent s'inscrire via le Discord. Le gagnant remportera un lot de 50 000$ et un véhicule exclusif. Les inscriptions sont limitées aux 16 premières équipes.",
+      "author": "Sofia"
+    },
+    {
+      "id": 6,
+      "title": "Mise à Jour 2.0 : Système Économique",
+      "date": "2025-04-15",
+      "image": "",
+      "excerpt": "Refonte complète de l'économie avec nouveau système de banque, marchés noirs et investissements.",
+      "content": "La mise à jour 2.0 est là avec une refonte totale de l'économie ! Nouveau système bancaire avec comptes épargne et intérêts, marché noir dynamique avec des prix fluctuants selon l'offre et la demande, système d'investissement dans les entreprises locales, et bien plus encore. Les commerçants peuvent désormais gérer leurs stocks et fixer leurs prix. Les joueurs peuvent acheter des parts dans les entreprises.",
+      "author": "Kane"
+    },
+    {
+      "id": 7,
+      "title": "Recrutement Staff : Devenir Modérateur",
+      "date": "2025-05-01",
+      "image": "",
+      "excerpt": "DrillTown recrute de nouveaux modérateurs pour renforcer son équipe.",
+      "content": "Nous recrutons ! DrillTown cherche des modérateurs passionnés pour rejoindre son équipe. Les critères : plus de 18 ans, 200 heures de jeu minimum, un micro de qualité et une bonne connaissance du règlement. Les candidatures sont à déposer sur notre Discord avec un formulaire détaillé. L'équipe actuelle a hâte de vous rencontrer !",
+      "author": "Lena"
+    },
+    {
+      "id": 8,
+      "title": "Soirée Club : Grand Opening du Nightclub",
+      "date": "2025-05-20",
+      "image": "",
+      "excerpt": "Le nouveau nightclub de DrillTown ouvre ses portes avec une soirée d'inauguration.",
+      "content": "Le nightclub 'The Trap' ouvre ses portes ce vendredi ! Une soirée d'inauguration est organisée avec DJ en direct, jeux d'argent et événements surprises. C'est l'occasion idéale pour les gangs de montrer leur présence et pour les citoyens de se détendre. Tenue correcte exigée. L'entrée est gratuite pour les 50 premiers visiteurs.",
+      "author": "Rico"
+    }
+  ]
+}

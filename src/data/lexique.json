@@ -1,0 +1,579 @@
+{
+  "lastUpdated": "2025-01-01",
+  "terms": [
+    {
+      "term": "Opp",
+      "pronunciation": "op",
+      "definition": "Terme désignant un opposant, un ennemi ou un membre d'un gang rival.",
+      "origin": "Abréviation de 'opposition' ou 'opponent' dans le jargon des rues de Chicago.",
+      "exampleRP": "J'ai vu des Opps corner, faut qu'on slide."
+    },
+    {
+      "term": "Gang",
+      "pronunciation": "gang",
+      "definition": "Groupe organisé contrôlant un territoire et pratiquant des activités illégales.",
+      "origin": "Issu de l'anglais 'gang' signifiant bande ou groupe.",
+      "exampleRP": "Mon gang contrôle tout le bloc ouest."
+    },
+    {
+      "term": "BD",
+      "pronunciation": "bé-dé",
+      "definition": "Black Disciples, l'un des plus grands gangs de Chicago, membre des Folks.",
+      "origin": "Fondé dans les années 1960 par David Barksdale à Chicago.",
+      "exampleRP": "Les BD ont pris le contrôle du quartier nord."
+    },
+    {
+      "term": "GD",
+      "pronunciation": "jé-dé",
+      "definition": "Gangster Disciples, gang majeur de Chicago, membre des Folks.",
+      "origin": "Fondé par Larry Hoover et David Barksdale, l'un des plus grands gangs des États-Unis.",
+      "exampleRP": "Les GD règnent sur le south side."
+    },
+    {
+      "term": "OTF",
+      "pronunciation": "o-té-èf",
+      "definition": "Only The Family, collectif drill originaire de Chicago fondé par le rappeur Chief Keef.",
+      "origin": "Fondé par Chief Keef dans les années 2010 à Chicago.",
+      "exampleRP": "OTF c'est la famille, on reste ensemble quoiqu'il arrive."
+    },
+    {
+      "term": "NLMB",
+      "pronunciation": "èn-èl-èm-bé",
+      "definition": "Never Leave My Brothers, gang drill de Chicago basé dans le secteur de Englewood.",
+      "origin": "Gang originaire d'Englewood, Chicago, popularisé par la scène drill.",
+      "exampleRP": "NLMB jusqu'à la mort, on ne quitte jamais ses frères."
+    },
+    {
+      "term": "Slide",
+      "pronunciation": "slaïde",
+      "definition": "Action de se déplacer rapidement en voiture dans un territoire ennemi pour attaquer.",
+      "origin": "Terme de rue de Chicago décrivant une attaque en voiture.",
+      "exampleRP": "On slide sur le bloc à eux ce soir."
+    },
+    {
+      "term": "Switch",
+      "pronunciation": "switche",
+      "definition": "Culasse modifiée permettant de tirer en rafale sur une arme semi-automatique.",
+      "origin": "Pièce détournée transformant un Glock en arme entièrement automatique.",
+      "exampleRP": "Il a un switch sur son Glock, il tire en rafale."
+    },
+    {
+      "term": "Drac",
+      "pronunciation": "drac",
+      "definition": "Diminutif de Draco, pistolet-mitrailleur de type AK-47 version courte.",
+      "origin": "Désigne le pistolet-mitrailleur Draco, très répandu dans les rues de Chicago.",
+      "exampleRP": "Il sort son Drac et vide le chargeur."
+    },
+    {
+      "term": "Pipe",
+      "pronunciation": "paille",
+      "definition": "Arme artisanale fabriquée à partir d'un silencieux de fortune, souvent fatale.",
+      "origin": "Terme de rue pour désigner un silencieux artisanal ou un pistolet modifié.",
+      "exampleRP": "Ils lui ont mis une Pipe avant de le descendre."
+    },
+    {
+      "term": "Ghost",
+      "pronunciation": "gôste",
+      "definition": "Personne qui traîne avec des gangs sans en être officiellement membre, ou disparaître sans laisser de traces.",
+      "origin": "Terme de rue désignant quelqu'un qui 'fantôme' ou un membre non officiel.",
+      "exampleRP": "Ce type c'est un Ghost, il est avec les Folks mais personne le connaît."
+    },
+    {
+      "term": "Crashout",
+      "pronunciation": "crach-aoute",
+      "definition": "Personne prête à tout, qui ne recule devant rien, même la violence extrême.",
+      "origin": "Terme de Chicago pour quelqu'un qui 'craque' et devient incontrôlable.",
+      "exampleRP": "Lui c'est un vrai Crashout, il a tiré sur la voiture sans hésiter."
+    },
+    {
+      "term": "Shorty",
+      "pronunciation": "chorti",
+      "definition": "Jeune femme ou jeune personne, parfois utilisé pour désigner une petite amie.",
+      "origin": "Terme d'argot afro-américain popularisé dans le hip-hop.",
+      "exampleRP": "Ma Shorty m'attend au bloc, faut que j'aille la voir."
+    },
+    {
+      "term": "Folks",
+      "pronunciation": "folks",
+      "definition": "Alliance de gangs rivaux des People, reconnaissables au symbole du hexagramme vers la droite.",
+      "origin": "Alliance de rue de Chicago comprenant les GD, BD et d'autres gangs.",
+      "exampleRP": "Les Folks contrôlent tout le côté est de la ville."
+    },
+    {
+      "term": "People",
+      "pronunciation": "piple",
+      "definition": "Alliance de gangs rivaux des Folks, reconnaissables au symbole du hexagramme vers la gauche.",
+      "origin": "Alliance historique de Chicago comprenant les Vice Lords, les P Stones et d'autres.",
+      "exampleRP": "Les People viennent sur notre territoire, faut les repousser."
+    },
+    {
+      "term": "Backdoor",
+      "pronunciation": "bak-dor",
+      "definition": "Trahison par un membre de confiance, souvent fatale pour la personne trahie.",
+      "origin": "Terme de rue désignant une trahison venue de l'intérieur du groupe.",
+      "exampleRP": "Il nous a Backdoor, c'était un rat depuis le début."
+    },
+    {
+      "term": "Pipe Down",
+      "pronunciation": "paille-daone",
+      "definition": "Faire taire quelqu'un par la force ou la menace.",
+      "origin": "Expression de rue signifiant réduire au silence.",
+      "exampleRP": "On va le Pipe Down s'il continue de parler aux fédéraux."
+    },
+    {
+      "term": "Merch",
+      "pronunciation": "meurtche",
+      "definition": "Marchandise, produit vendu illégalement (armes, drogue).",
+      "origin": "Abréviation de 'merchandise' dans le trafic de rue.",
+      "exampleRP": "J'ai la Merch, rejoins-moi au spot."
+    },
+    {
+      "term": "On Bro",
+      "pronunciation": "on-bro",
+      "definition": "Promesse solennelle, 'sur mon frère', pour jurer qu'on dit la vérité.",
+      "origin": "Abréviation de 'on my brother' dans le jargon des rues.",
+      "exampleRP": "On Bro, je te jure que c'est lui qui a balancé."
+    },
+    {
+      "term": "Goofy",
+      "pronunciation": "goufi",
+      "definition": "Personne stupide, naïve ou qui fait des erreurs.",
+      "origin": "Terme d'argot dérivé du personnage Disney pour désigner quelqu'un de ridicule.",
+      "exampleRP": "T'as fait quoi là? Arrête d'être Goofy."
+    },
+    {
+      "term": "Tweaking",
+      "pronunciation": "twik-ing",
+      "definition": "Comportement agité ou paranoïaque sous l'effet de drogues, ou simplement agir de façon bizarre.",
+      "origin": "Terme décrivant les effets secondaires de la méthamphétamine.",
+      "exampleRP": "Il est en train de Tweaking, il parle tout seul."
+    },
+    {
+      "term": "Blick",
+      "pronunciation": "blik",
+      "definition": "Arme de poing, pistolet.",
+      "origin": "Argot de rue de Chicago pour désigner un pistolet.",
+      "exampleRP": "Il a sorti son Blick direct."
+    },
+    {
+      "term": "Blicky",
+      "pronunciation": "bliki",
+      "definition": "Arme à feu automatique, pistolet-mitrailleur.",
+      "origin": "Variante de 'blick', terme de rue de Chicago.",
+      "exampleRP": "Il avait un Blicky caché sous son sweat."
+    },
+    {
+      "term": "Beam",
+      "pronunciation": "bime",
+      "definition": "Viseur laser ou lampe tactique monté sur une arme.",
+      "origin": "Désigne le laser (beam) ajouté aux armes pour viser la nuit.",
+      "exampleRP": "J'ai vu le Beam dans le noir, il était armé."
+    },
+    {
+      "term": "Lo",
+      "pronunciation": "lo",
+      "definition": "Membre des Vice Lords, un gang majeur de Chicago.",
+      "origin": "Abréviation de 'Vice Lord'.",
+      "exampleRP": "Les Lo sont dans le secteur, faites gaffe."
+    },
+    {
+      "term": "Block",
+      "pronunciation": "blok",
+      "definition": "Pâté de maisons ou quartier contrôlé par un gang.",
+      "origin": "Terme de rue désignant le territoire immédiat d'un gang.",
+      "exampleRP": "Personne entre sur notre Block sans permission."
+    },
+    {
+      "term": "Corner",
+      "pronunciation": "kor-neur",
+      "definition": "Coin de rue où les trafiquants vendent leur marchandise.",
+      "origin": "Littéralement 'coin de rue', point de vente traditionnel des gangs.",
+      "exampleRP": "Reste pas au Corner, les flics tournent."
+    },
+    {
+      "term": "Trap",
+      "pronunciation": "trap",
+      "definition": "Maison ou appartement utilisé pour le trafic de drogue.",
+      "origin": "Terme popularisé par la culture hip-hop désignant un lieu de vente de drogue.",
+      "exampleRP": "La Trap est chaude ce soir, y a du monde."
+    },
+    {
+      "term": "Trap House",
+      "pronunciation": "trap-haousse",
+      "definition": "Maison abandonnée ou occupée servant de lieu de trafic.",
+      "origin": "Terme de rue pour une maison de deal.",
+      "exampleRP": "La Trap House dans la 63e est sous contrôle."
+    },
+    {
+      "term": "Fin Ball",
+      "pronunciation": "fin-bal",
+      "definition": "Balle de 50 dollars, ou 50 rounds de munitions.",
+      "origin": "Terme de rue pouvant désigner soit l'argent soit les munitions.",
+      "exampleRP": "Donne-moi deux Fin Ball de weed."
+    },
+    {
+      "term": "Hit",
+      "pronunciation": "hit",
+      "definition": "Contrat d'assassinat, ou dose de drogue.",
+      "origin": "Terme de rue pour un meurtre commandité ou une dose.",
+      "exampleRP": "Y a un Hit sur lui, 10 band."
+    },
+    {
+      "term": "Drop",
+      "pronunciation": "drop",
+      "definition": "Dépôt de drogue ou d'argent pour récupération ultérieure.",
+      "origin": "Lieu où la marchandise est déposée pour être récupérée.",
+      "exampleRP": "Fais le Drop au spot habituel, je passerai."
+    },
+    {
+      "term": "Smoke",
+      "pronunciation": "smoke",
+      "definition": "Faire de la fumée, tuer un ennemi ou fumer de la drogue.",
+      "origin": "Terme à double sens : fumer ou 'fumer' quelqu'un.",
+      "exampleRP": "On va les Smoke, ils nous cherchent."
+    },
+    {
+      "term": "Pack",
+      "pronunciation": "pak",
+      "definition": "Lot de drogue emballé prêt à être vendu.",
+      "origin": "Terme de rue pour désigner une quantité de drogue.",
+      "exampleRP": "Prends le Pack et va au Corner."
+    },
+    {
+      "term": "Tweaker",
+      "pronunciation": "twikeur",
+      "definition": "Personne dépendante aux drogues, en particulier à la méthamphétamine.",
+      "origin": "Personne sous l'effet du crystal meth.",
+      "exampleRP": "Ce Tweaker a volé ma voiture."
+    },
+    {
+      "term": "Rat",
+      "pronunciation": "rat",
+      "definition": "Informateur, balance qui collabore avec la police.",
+      "origin": "Terme universel pour désigner un traître.",
+      "exampleRP": "Y a un Rat dans le crew, quelqu'un parle aux fédéraux."
+    },
+    {
+      "term": "Federal",
+      "pronunciation": "fé-dé-ral",
+      "definition": "Agent fédéral, police fédérale.",
+      "origin": "Désigne le FBI, la DEA ou toute agence fédérale aux États-Unis.",
+      "exampleRP": "Les Fédéraux ont débarqué à la Trap."
+    },
+    {
+      "term": "CPD",
+      "pronunciation": "cé-pé-dé",
+      "definition": "Chicago Police Department, police de Chicago.",
+      "origin": "Acronyme officiel du département de police de Chicago.",
+      "exampleRP": "Les CPD sont en patrouille, faites les morts."
+    },
+    {
+      "term": "Cook County",
+      "pronunciation": "kouk-kaounti",
+      "definition": "Prison du comté de Cook à Chicago.",
+      "origin": "Nom de la prison principale de Chicago située dans le comté de Cook.",
+      "exampleRP": "Il a pris 6 mois à Cook County."
+    },
+    {
+      "term": "County Jail",
+      "pronunciation": "kaounti-jél",
+      "definition": "Prison de comté, détention provisoire.",
+      "origin": "Système carcéral américain de comté.",
+      "exampleRP": "Ils l'ont mis au County Jail en attendant le procès."
+    },
+    {
+      "term": "Probation",
+      "pronunciation": "pro-bé-chion",
+      "definition": "Mise à l'épreuve, liberté surveillée.",
+      "origin": "Terme juridique américain pour une peine alternative.",
+      "exampleRP": "Il est en Probation, il peut pas quitter la ville."
+    },
+    {
+      "term": "Parole",
+      "pronunciation": "pa-role",
+      "definition": "Liberté conditionnelle après une peine de prison.",
+      "origin": "Système de libération conditionnelle américain.",
+      "exampleRP": "Il sort en Parole dans deux semaines."
+    },
+    {
+      "term": "K",
+      "pronunciation": "ké",
+      "definition": "Kilogramme, unité de mesure pour la drogue ou le cash.",
+      "origin": "Abréviation de 'kilo'.",
+      "exampleRP": "Il a pris un K de coke au port."
+    },
+    {
+      "term": "Glock",
+      "pronunciation": "glok",
+      "definition": "Pistolet autrichien populaire, très répandu dans les rues.",
+      "origin": "Marque d'armes à feu autrichienne, référence dans le milieu du crime.",
+      "exampleRP": "Il a sorti son Glock et a vidé le chargeur."
+    },
+    {
+      "term": "Draco",
+      "pronunciation": "dra-ko",
+      "definition": "Pistolet-mitrailleur de type AK-47 en version courte.",
+      "origin": "Version courte du fusil d'assaut AK-47, populaire dans le drill.",
+      "exampleRP": "Son Draco lui a sauvé la vie."
+    },
+    {
+      "term": "Stick",
+      "pronunciation": "stik",
+      "definition": "Chargeur long d'arme à feu, tambour de munitions.",
+      "origin": "Terme de rue désignant un chargeur à haute capacité.",
+      "exampleRP": "Il a un Stick de 50 balles."
+    },
+    {
+      "term": "Chop",
+      "pronunciation": "tchop",
+      "definition": "Fusil d'assaut, en particulier une AK-47 raccourcie.",
+      "origin": "Terme de rue pour désigner un fusil modifié.",
+      "exampleRP": "Il est descendu de la voiture avec un Chop."
+    },
+    {
+      "term": "Score",
+      "pronunciation": "skor",
+      "definition": "Butin, argent obtenu d'un braquage ou d'une vente.",
+      "origin": "Terme de rue pour un gain illégal réussi.",
+      "exampleRP": "On a fait un beau Score aujourd'hui."
+    },
+    {
+      "term": "Band",
+      "pronunciation": "band",
+      "definition": "Liasse de billets, 1000 dollars.",
+      "origin": "Désigne une bande d'argent attachée par un élastique, valant 1000$.",
+      "exampleRP": "J'ai 5 Band sur moi, on va faire les courses."
+    },
+    {
+      "term": "Rack",
+      "pronunciation": "rak",
+      "definition": "Une liasse de 1000 dollars.",
+      "origin": "Synonyme de 'band', popularisé par le rap.",
+      "exampleRP": "Il a fait un Rack sur cette vente."
+    },
+    {
+      "term": "Whip",
+      "pronunciation": "wip",
+      "definition": "Voiture, souvent luxueuse ou personnalisée.",
+      "origin": "Argot afro-américain pour désigner une voiture.",
+      "exampleRP": "Ma nouvelle Whip arrive demain."
+    },
+    {
+      "term": "Skrrt",
+      "pronunciation": "skreurt",
+      "definition": "Bruit de pneus qui dérapent, action de partir rapidement.",
+      "origin": "Onomatopée popularisée par le rap.",
+      "exampleRP": "On a fait Skrrt dès qu'on a vu les bleus."
+    },
+    {
+      "term": "Slime",
+      "pronunciation": "slaïme",
+      "definition": "Frère, ami proche, membre de confiance.",
+      "origin": "Terme d'argot dérivé de 'slimeball', utilisé comme terme affectueux.",
+      "exampleRP": "C'est mon Slime, je donne ma vie pour lui."
+    },
+    {
+      "term": "Thot",
+      "pronunciation": "thote",
+      "definition": "Femme considérée comme facile ou intéressée par l'argent.",
+      "origin": "Acronyme argotique de 'That Hoe Over There'.",
+      "exampleRP": "Fais pas attention à cette Thot, elle cherche que l'argent."
+    },
+    {
+      "term": "Bop",
+      "pronunciation": "bop",
+      "definition": "Femme qui change souvent de partenaire, ou danse provocante.",
+      "origin": "Terme d'argot pour une femme jugée légère.",
+      "exampleRP": "Cette Bop traîne avec tous les gars du block."
+    },
+    {
+      "term": "Jit",
+      "pronunciation": "djit",
+      "definition": "Jeune personne, adolescent, souvent un nouveau membre.",
+      "origin": "Argot afro-américain pour désigner un jeune.",
+      "exampleRP": "Le Jit a fait ses preuves, on le garde."
+    },
+    {
+      "term": "Banger",
+      "pronunciation": "banguer",
+      "definition": "Arme à feu, ou son musical puissant.",
+      "origin": "Terme de rue pour une arme qui 'bang', ou un morceau de musique fort.",
+      "exampleRP": "Il avait un Banger sur lui."
+    },
+    {
+      "term": "Cap",
+      "pronunciation": "kap",
+      "definition": "Mensonge, exagération.",
+      "origin": "Terme d'argot moderne signifiant mentir.",
+      "exampleRP": "T'arrêtes de dire du Cap, je sais ce qui s'est passé."
+    },
+    {
+      "term": "No Cap",
+      "pronunciation": "no-kap",
+      "definition": "Sans mentir, vérité vraie.",
+      "origin": "Affirmation de sincérité dans l'argot des rues.",
+      "exampleRP": "No Cap, je l'ai vu de mes propres yeux."
+    },
+    {
+      "term": "Facts",
+      "pronunciation": "faks",
+      "definition": "Vérité, affirmation vraie, 'les faits'.",
+      "origin": "Expression d'accord et de confirmation.",
+      "exampleRP": "Facts, c'est exactement ce qui s'est passé."
+    },
+    {
+      "term": "Deadass",
+      "pronunciation": "déd-ass",
+      "definition": "Sérieusement, sans blague, pour de vrai.",
+      "origin": "Argot originaire de New York popularisé dans le hip-hop.",
+      "exampleRP": "Deadass, je vais lui régler son compte."
+    },
+    {
+      "term": "Fr",
+      "pronunciation": "èf-ar",
+      "definition": "Pour de vrai, sincèrement.",
+      "origin": "Abréviation de 'for real'.",
+      "exampleRP": "Fr, j'étais pas là quand c'est arrivé."
+    },
+    {
+      "term": "On God",
+      "pronunciation": "on-god",
+      "definition": "Juré, sur Dieu, promesse solennelle.",
+      "origin": "Serment religieux dans l'argot des rues.",
+      "exampleRP": "On God, j'étais pas au courant."
+    },
+    {
+      "term": "Straight Up",
+      "pronunciation": "strét-eup",
+      "definition": "Directement, honnêtement, sans détour.",
+      "origin": "Expression d'honnêteté et de franchise.",
+      "exampleRP": "Straight Up, c'était lui le tireur."
+    },
+    {
+      "term": "Bet",
+      "pronunciation": "bèt",
+      "definition": "D'accord, compris, ça marche.",
+      "origin": "Terme d'argot signifiant confirmation ou accord.",
+      "exampleRP": "Bet, je suis là dans 5 minutes."
+    },
+    {
+      "term": "Aight",
+      "pronunciation": "aït",
+      "definition": "D'accord, ok.",
+      "origin": "Contraction de 'alright'.",
+      "exampleRP": "Aight, on se voit au spot."
+    },
+    {
+      "term": "Foenem",
+      "pronunciation": "fo-nèm",
+      "definition": "Les gars, l'équipe, les frères, 'foe nem' = 'foes and them'.",
+      "origin": "Terme de Chicago pour désigner son groupe.",
+      "exampleRP": "Foenem est au complet ce soir."
+    },
+    {
+      "term": "Brodie",
+      "pronunciation": "bro-di",
+      "definition": "Frère, ami proche.",
+      "origin": "Surnom affectueux dérivé de 'bro'.",
+      "exampleRP": "Brodie, viens par ici j'ai à te parler."
+    },
+    {
+      "term": "Twin",
+      "pronunciation": "twin",
+      "definition": "Meilleur ami, frère de sang, personne avec qui on partage tout.",
+      "origin": "Terme d'argot pour 'jumeau', désignant un lien très fort.",
+      "exampleRP": "C'est mon Twin, on fait tout ensemble."
+    },
+    {
+      "term": "Slide Through",
+      "pronunciation": "slaïde-throu",
+      "definition": "Passer quelque part, faire une apparition rapide.",
+      "origin": "Invitation à venir quelque rapidement.",
+      "exampleRP": "Slide Through au block quand tu finis."
+    },
+    {
+      "term": "Pull Up",
+      "pronunciation": "poul-eup",
+      "definition": "Arriver sur les lieux, se pointer.",
+      "origin": "Action d'arriver en voiture ou à pied.",
+      "exampleRP": "Pull Up si t'as pas peur."
+    },
+    {
+      "term": "Catch a Body",
+      "pronunciation": "katch-a-bodi",
+      "definition": "Tuer quelqu'un, commettre un meurtre.",
+      "origin": "Terme de rue pour 'attraper un cadavre'.",
+      "exampleRP": "Il a Catch a Body l'année dernière."
+    },
+    {
+      "term": "Spin the Block",
+      "pronunciation": "spin-le-block",
+      "definition": "Faire un tour en voiture autour du bloc pour vérifier ou attaquer.",
+      "origin": "Terme de rue pour patrouiller en voiture dans son territoire.",
+      "exampleRP": "On va Spin the Block voir si les Opps sont là."
+    },
+    {
+      "term": "On Sight",
+      "pronunciation": "on-saït",
+      "definition": "Immédiatement, dès qu'on voit l'ennemi.",
+      "origin": "Règle de rue : attaquer dès la vue de l'ennemi.",
+      "exampleRP": "Si je le vois, c'est On Sight."
+    },
+    {
+      "term": "No Hook",
+      "pronunciation": "no-houk",
+      "definition": "Sans refrain, directement dans le vif du sujet.",
+      "origin": "Terme musical du drill désignant un morceau sans refrain.",
+      "exampleRP": "Ce son c'est du No Hook, direct dans le bain."
+    },
+    {
+      "term": "Dead Presidents",
+      "pronunciation": "dèd-prézi-dents",
+      "definition": "L'argent, les billets de banque.",
+      "origin": "Référence aux présidents américains imprimés sur les billets.",
+      "exampleRP": "Tout ce qui compte c'est les Dead Presidents."
+    },
+    {
+      "term": "Chicken",
+      "pronunciation": "tchi-ken",
+      "definition": "Poulet, terme désignant la police.",
+      "origin": "Terme d'argot désobligeant pour la police.",
+      "exampleRP": "Les Chickens tournent autour du bloc."
+    },
+    {
+      "term": "Zoo",
+      "pronunciation": "zou",
+      "definition": "Terme désignant le zoo de Chicago ou un quartier chaotique.",
+      "origin": "Référence au Lincoln Park Zoo ou à l'ambiance du quartier.",
+      "exampleRP": "C'est le Zoo ici, tout le monde fait n'importe quoi."
+    },
+    {
+      "term": "6ix",
+      "pronunciation": "six",
+      "definition": "Terme désignant le sixième district ou Toronto.",
+      "origin": "Popularisé par Drake, mais aussi un secteur de Chicago.",
+      "exampleRP": "Il vient du 6ix, il connaît les règles."
+    },
+    {
+      "term": "300",
+      "pronunciation": "trois-cent",
+      "definition": "Gang drill de Chicago originaire du secteur de Lawndale.",
+      "origin": "Gang fondé par les membres du collectif 300, associé à FBG Duck.",
+      "exampleRP": "Les 300 sèment la terreur dans Lawndale."
+    },
+    {
+      "term": "051YM",
+      "pronunciation": "zéro-cinq-un-y-m",
+      "definition": "Gang drill de Chicago originaire de Young Money, basé à Englewood.",
+      "origin": "Gang d'Englewood, Chicago, rivaux des 300.",
+      "exampleRP": "Les 051YM tiennent Englewood."
+    },
+    {
+      "term": "600",
+      "pronunciation": "six-cent",
+      "definition": "Gang drill de Chicago originaire du secteur de la 63e rue.",
+      "origin": "Gang historique du south side de Chicago.",
+      "exampleRP": "Les 600 ont marqué l'histoire du drill."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "lastUpdated": "2025-01-01",
+  "categories": [
+    {
+      "name": "Général",
+      "items": [
+        {
+          "question": "Comment rejoindre DrillTown ?",
+          "answer": "Pour rejoindre DrillTown, vous devez d'abord passer la whitelist sur notre Discord. Ensuite, connectez-vous via FiveM avec l'adresse IP du serveur disponible dans le salon dédié."
+        },
+        {
+          "question": "Le serveur est-il payant ?",
+          "answer": "Non, DrillTown est entièrement gratuit. Cependant, nous proposons des donations optionnelles pour soutenir le serveur et obtenir des bonus cosmétiques."
+        },
+        {
+          "question": "Quel est le style de RP sur DrillTown ?",
+          "answer": "DrillTown est un serveur RP orienté street gang et Chicago drill. Nous proposons un RP semi-lourd avec une forte composante criminelle et policière."
+        },
+        {
+          "question": "Y a-t-il un limite d'âge ?",
+          "answer": "Oui, il faut avoir au moins 16 ans pour jouer sur DrillTown. Une pièce d'identité peut être demandée en cas de doute."
+        },
+        {
+          "question": "Puis-je streamer sur DrillTown ?",
+          "answer": "Oui, le streaming est autorisé et encouragé. Veuillez demander le rôle streamer sur notre Discord pour apparaître dans la liste."
+        }
+      ]
+    },
+    {
+      "name": "Connexion",
+      "items": [
+        {
+          "question": "Comment installer FiveM ?",
+          "answer": "Téléchargez FiveM depuis le site officiel fivem.net puis installez-le. Assurez-vous d'avoir GTA V installé au préalable."
+        },
+        {
+          "question": "Je n'arrive pas à me connecter",
+          "answer": "Vérifiez que votre whitelist est active, que FiveM est à jour et que vous utilisez la bonne adresse IP. Si le problème persiste, contactez le support sur Discord."
+        },
+        {
+          "question": "Le serveur ne charge pas",
+          "answer": "Essayez de vider le cache de FiveM, redémarrez votre jeu et réessayez. Si le problème persiste, vérifiez l'état du serveur sur notre Discord."
+        },
+        {
+          "question": "Problème de FPS",
+          "answer": "Réduisez vos paramètres graphiques, désactivez les ombres et le brouillard. Assurez-vous que vos pilotes sont à jour."
+        },
+        {
+          "question": "J'ai perdu mon personnage",
+          "answer": "Contactez un administrateur sur Discord avec votre nom RP et votre identifiant. Nous restaurons les personnages en cas de bug."
+        }
+      ]
+    },
+    {
+      "name": "Roleplay",
+      "items": [
+        {
+          "question": "C'est quoi le Fear RP ?",
+          "answer": "Le Fear RP consiste à roleplay la peur de la mort de votre personnage. Vous devez agir comme si votre vie était en danger face à une menace."
+        },
+        {
+          "question": "Puis-je utiliser /me ?",
+          "answer": "Oui, /me est utilisé pour décrire des actions que votre personnage fait et qui ne sont pas couvertes par les animations du jeu."
+        },
+        {
+          "question": "Comment signaler un joueur ?",
+          "answer": "Utilisez la commande /report en jeu ou créez un ticket sur notre Discord avec des preuves vidéo."
+        },
+        {
+          "question": "Puis-je jouer plusieurs personnages ?",
+          "answer": "Oui, vous pouvez avoir jusqu'à 3 personnages. Chaque personnage doit avoir une histoire et une vie distincte."
+        },
+        {
+          "question": "Comment bien débuter ?",
+          "answer": "Commencez par lire le règlement complet, créez un personnage avec une histoire solide et n'hésitez pas à interagir avec les autres joueurs."
+        }
+      ]
+    },
+    {
+      "name": "Économie",
+      "items": [
+        {
+          "question": "Comment gagner de l'argent ?",
+          "answer": "Vous pouvez gagner de l'argent via des jobs légaux (livreur, mécanicien, etc.) ou illégaux (drogue, braquages, trafic d'armes)."
+        },
+        {
+          "question": "Comment acheter une voiture ?",
+          "answer": "Rendez-vous chez un concessionnaire ou achetez auprès d'un joueur. Un contrat de vente est nécessaire pour les transactions entre joueurs."
+        },
+        {
+          "question": "Puisque acheter une maison ?",
+          "answer": "Oui, les propriétés sont disponibles via l'immobilier en jeu. Les prix varient selon la localisation et la taille."
+        },
+        {
+          "question": "Comment ouvrir un compte banque ?",
+          "answer": "Rendez-vous à la banque doté de la ville avec votre pièce d'identité. Un employé vous ouvrira un compte."
+        },
+        {
+          "question": "Que faire si mon argent a disparu ?",
+          "answer": "Contactez le support avec une capture d'écran et l'heure exacte de la perte. Nous enquêterons sur le problème."
+        }
+      ]
+    },
+    {
+      "name": "Factions",
+      "items": [
+        {
+          "question": "Comment rejoindre un gang ?",
+          "answer": "Les recrutements se font exclusivement en RP. Trouvez un gang dans la ville et faites vos preuves pour intégrer leurs rangs."
+        },
+        {
+          "question": "Comment rejoindre la police ?",
+          "answer": "Vous devez passer une candidature sur notre Discord et réussir la formation CPD. Un casier judiciaire vierge est requis."
+        },
+        {
+          "question": "Comment créer sa propre organisation ?",
+          "answer": "Vous devez faire une demande au staff avec un dossier complet présentant votre organisation, ses objectifs et ses membres."
+        },
+        {
+          "question": "Puis-je changer de faction ?",
+          "answer": "Oui, mais avec un cooldown RP. Vous ne pouvez pas passer d'un gang à un autre sans une raison RP valable."
+        },
+        {
+          "question": "Les alliances entre gangs sont-elles autorisées ?",
+          "answer": "Oui, mais elles doivent être RP et approuvées par le staff. Les alliances peuvent être rompues à tout moment pour des raisons RP."
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "items": [
+        {
+          "question": "Comment contacter le staff ?",
+          "answer": "Ouvrez un ticket sur notre Discord ou utilisez la commande /report en jeu. Pour les urgences, mentionnez un membre du staff."
+        },
+        {
+          "question": "Délai de réponse ?",
+          "answer": "Les tickets sont traités dans les 24 heures. Les reports en jeu sont traités dès qu'un membre du staff est disponible."
+        },
+        {
+          "question": "Puis-je faire appel d'un ban ?",
+          "answer": "Oui, créez un ticket d'appel sur Discord avec une explication détaillée et des preuves. L'équipe examinera votre dossier."
+        },
+        {
+          "question": "Signaler un bug ?",
+          "answer": "Utilisez le salon bug-report sur Discord avec une description précise, les étapes pour reproduire le bug et une vidéo si possible."
+        },
+        {
+          "question": "Proposer une suggestion ?",
+          "answer": "Utilisez le salon suggestions sur Discord. Chaque suggestion sera examinée par l'équipe et un retour vous sera donné."
+        }
+      ]
+    }
+  ]
+}

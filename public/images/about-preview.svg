@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Purple glow bg -->
+  <circle cx="400" cy="300" r="250" fill="#7C3AED" opacity="0.04" filter="url(#blur)"/>
+  <circle cx="650" cy="150" r="120" fill="#A855F7" opacity="0.03" filter="url(#blur)"/>
+  <circle cx="100" cy="500" r="150" fill="#7C3AED" opacity="0.03" filter="url(#blur)"/>
+  <!-- Chicago skyline silhouette -->
+  <rect x="0" y="380" width="800" height="220" fill="#0a0a0a" opacity="0.5"/>
+  <rect x="50" y="340" width="30" height="160" fill="#151515"/>
+  <rect x="90" y="310" width="25" height="190" fill="#151515"/>
+  <rect x="130" y="350" width="20" height="150" fill="#151515"/>
+  <rect x="170" y="280" width="40" height="220" fill="#1a1a1a"/>
+  <rect x="220" y="320" width="25" height="180" fill="#151515"/>
+  <rect x="260" y="360" width="35" height="140" fill="#151515"/>
+  <rect x="310" y="250" width="45" height="250" fill="#1a1a1a"/>
+  <rect x="370" y="290" width="30" height="210" fill="#151515"/>
+  <rect x="410" y="330" width="25" height="170" fill="#151515"/>
+  <rect x="450" y="270" width="50" height="230" fill="#1a1a1a"/>
+  <rect x="520" y="300" width="35" height="200" fill="#151515"/>
+  <rect x="570" y="340" width="25" height="160" fill="#151515"/>
+  <rect x="610" y="310" width="40" height="190" fill="#1a1a1a"/>
+  <rect x="660" y="350" width="30" height="150" fill="#151515"/>
+  <rect x="700" y="290" width="35" height="210" fill="#1a1a1a"/>
+  <rect x="745" y="320" width="55" height="180" fill="#151515"/>
+  <!-- City texture overlay -->
+  <rect x="0" y="380" width="800" height="220" fill="url(#overlay)"/>
+  <!-- Purple accent line -->
+  <rect x="0" y="378" width="800" height="2" fill="url(#glow1)" opacity="0.3"/>
+  <!-- DT watermark -->
+  <text x="400" y="200" font-family="Arial Black, sans-serif" font-size="120" font-weight="900" fill="url(#glow1)" text-anchor="middle" opacity="0.08">DT</text>
+  <!-- Grid dots -->
+  <g fill="#7C3AED" opacity="0.03">
+    <circle cx="40" cy="40" r="1.5"/><circle cx="120" cy="40" r="1.5"/><circle cx="200" cy="40" r="1.5"/>
+    <circle cx="280" cy="40" r="1.5"/><circle cx="360" cy="40" r="1.5"/><circle cx="440" cy="40" r="1.5"/>
+    <circle cx="520" cy="40" r="1.5"/><circle cx="600" cy="40" r="1.5"/><circle cx="680" cy="40" r="1.5"/>
+    <circle cx="760" cy="40" r="1.5"/><circle cx="40" cy="120" r="1.5"/><circle cx="120" cy="120" r="1.5"/>
+    <circle cx="200" cy="120" r="1.5"/><circle cx="280" cy="120" r="1.5"/><circle cx="360" cy="120" r="1.5"/>
+    <circle cx="440" cy="120" r="1.5"/><circle cx="520" cy="120" r="1.5"/><circle cx="600" cy="120" r="1.5"/>
+    <circle cx="680" cy="120" r="1.5"/><circle cx="760" cy="120" r="1.5"/>
+  </g>
+  <!-- Bottom fade -->
+  <rect x="0" y="450" width="800" height="150" fill="url(#overlay)"/>
+</svg>

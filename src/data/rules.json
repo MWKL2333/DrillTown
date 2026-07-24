@@ -1,0 +1,256 @@
+{
+  "lastUpdated": "2025-01-01",
+  "categories": [
+    {
+      "name": "Règlement Général",
+      "description": "Règles fondamentales du serveur",
+      "rules": [
+        { "id": "RG-1", "title": "Respect", "description": "Tout joueur se doit de respecter les autres joueurs et le staff. Les insultes, provocations et discriminations sont interdites." },
+        { "id": "RG-2", "title": "Langue", "description": "Le français est obligatoire en chat vocal et écrit. L'anglais ou toute autre langue est interdit en RP comme en HRP." },
+        { "id": "RG-3", "title": "Microphone", "description": "Un micro de qualité est obligatoire. Les bruits parasites, la musique au micro et le soundboard sont interdits." },
+        { "id": "RG-4", "title": "Stream Sniping", "description": "Il est interdit de regarder un stream pour obtenir un avantage en jeu. Cela résulte en un ban définitif." },
+        { "id": "RG-5", "title": "Comportement HRP", "description": "Les griefs HRP, le trolling et toute forme de nuisance sont strictement interdits." }
+      ]
+    },
+    {
+      "name": "Fear RP",
+      "description": "Règles concernant la peur et la survie",
+      "rules": [
+        { "id": "FRP-1", "title": "Peur de la mort", "description": "Vous devez agir comme si votre personnage avait peur de mourir. Ne pas foncer dans un fusillade sans protection." },
+        { "id": "FRP-2", "title": "Menace armée", "description": "Face à une arme pointée sur vous, vous devez obéir et coopérer. Toute résistance injustifiée est du Fear RP non respecté." },
+        { "id": "FRP-3", "title": "Prise d'otage", "description": "En tant qu'otage, vous devez montrer des signes de peur et de stress. Ne pas tenter de vous échapper sans opportunité réaliste." },
+        { "id": "FRP-4", "title": "Véhicule", "description": "Vous ne devez pas sortir d'un véhicule en pleine course-poursuite ou vous jeter devant une voiture." }
+      ]
+    },
+    {
+      "name": "Mass RP",
+      "description": "Règles sur les actions de masse",
+      "rules": [
+        { "id": "MRP-1", "title": "Tir de masse", "description": "Les tirs dans la foule sont interdits sans scénario RP préalable et validé par le staff." },
+        { "id": "MRP-2", "title": "Attroupement", "description": "Les attroupements hostiles de plus de 10 joueurs doivent être supervisés par un membre du staff." },
+        { "id": "MRP-3", "title": "Émeute", "description": "Toute émeute ou soulèvement nécessite une validation du staff en amont." },
+        { "id": "MRP-4", "title": "Zone de guerre", "description": "Il est interdit de déclarer une zone de guerre sans autorisation du staff." }
+      ]
+    },
+    {
+      "name": "No Pain",
+      "description": "Règles sur la douleur et les blessures",
+      "rules": [
+        { "id": "NP-1", "title": "Blessure grave", "description": "Après une blessure grave, vous devez roleplay la douleur et les séquelles. Marcher normalement après une fusillade est interdit." },
+        { "id": "NP-2", "title": "Soins RP", "description": "Vous ne pouvez pas vous soigner instantanément. Cherchez un EMS ou utilisez des soins de manière RP." },
+        { "id": "NP-3", "title": "Réanimation", "description": "Après une réanimation, vous devez roleplay une faiblesse et des douleurs pendant au moins 15 minutes." },
+        { "id": "NP-4", "title": "Membre cassé", "description": "Si vous roleplayez un membre cassé, vous devez agir en conséquence jusqu'à prise en charge médicale." }
+      ]
+    },
+    {
+      "name": "Powergaming",
+      "description": "Règles contre le powergaming",
+      "rules": [
+        { "id": "PG-1", "title": "Impossible RP", "description": "Il est interdit de faire des actions irréalisables dans la vie réelle (sauter d'un toit sans blessure, etc.)." },
+        { "id": "PG-2", "title": "Forcer une action", "description": "Vous ne pouvez pas forcer une action sur un autre joueur sans lui laisser une chance de réagir. Utilisez /me ou /do." },
+        { "id": "PG-3", "title": "Refus de RP", "description": "Refuser un scénario RP plausible pour éviter une perte ou un désagrément est considéré comme du powergaming." },
+        { "id": "PG-4", "title": "Connaissances HRP", "description": "Utiliser des connaissances HRP pour avantager votre personnage est interdit." }
+      ]
+    },
+    {
+      "name": "Metagaming",
+      "description": "Règles contre le metagaming",
+      "rules": [
+        { "id": "MG-1", "title": "Informations HRP", "description": "Il est interdit d'utiliser des informations obtenues hors jeu (Discord, stream, etc.) dans le jeu." },
+        { "id": "MG-2", "title": "Communication externe", "description": "Donner des informations en jeu via des moyens HRP (appel Discord, SMS IRL) est interdit." },
+        { "id": "MG-3", "title": "Localisation HRP", "description": "Partager la position d'un joueur via des moyens HRP est interdit." },
+        { "id": "MG-4", "title": "Teamspeak RP", "description": "Toute communication vocale hors jeu pendant une scène RP est interdite." }
+      ]
+    },
+    {
+      "name": "Freekill",
+      "description": "Règles sur les meurtres non RP",
+      "rules": [
+        { "id": "FK-1", "title": "Meurtre sans raison", "description": "Tuer un joueur sans raison RP valable est interdit. Un conflit doit exister." },
+        { "id": "FK-2", "title": "New Life", "description": "Après être mort, vous ne pouvez pas revenir vous venger directement. Vous devez oublier les circonstances de votre mort." },
+        { "id": "FK-3", "title": "Massacre", "description": "Tuer systématiquement tous les membres d'un groupe en une seule fois est interdit sans scénario." },
+        { "id": "FK-4", "title": "Executions", "description": "Les exécutions sommaires sont interdites sans scène RP approfondie." }
+      ]
+    },
+    {
+      "name": "Free Punch",
+      "description": "Règles sur les agressions gratuites",
+      "rules": [
+        { "id": "FP-1", "title": "Baston RP", "description": "Frapper quelqu'un sans raison RP est interdit. Un conflit verbal doit précéder." },
+        { "id": "FP-2", "title": "Provocation", "description": "Provoquer sans cesse les joueurs pour les faire réagir et les frapper est interdit." },
+        { "id": "FP-3", "title": "Escalade", "description": "Vous devez graduer la violence. Ne pas passer direct du couteau au fusil d'assaut." }
+      ]
+    },
+    {
+      "name": "Combat Logging",
+      "description": "Règles sur la déconnexion en combat",
+      "rules": [
+        { "id": "CL-1", "title": "Déconnexion hostile", "description": "Se déconnecter pendant un combat, une poursuite ou une scène RP est strictement interdit." },
+        { "id": "CL-2", "title": "Reconnexion", "description": "Après une déconnexion en scène RP, vous devez attendre 30 minutes avant de revenir." },
+        { "id": "CL-3", "title": "Perte de stuff", "description": "Tout stuff perdu suite à un combat logging est définitivement perdu." },
+        { "id": "CL-4", "title": "Bannissement", "description": "Le combat logging répété résulte en un ban définitif du serveur." }
+      ]
+    },
+    {
+      "name": "Safe Zone",
+      "description": "Règles sur les zones sécurisées",
+      "rules": [
+        { "id": "SZ-1", "title": "Zones safe", "description": "Les zones safe incluent : l'hôpital, le commissariat, la mairie et les concessions." },
+        { "id": "SZ-2", "title": "Négoce", "description": "Le trafic d'armes et de drogue est interdit dans les zones safe." },
+        { "id": "SZ-3", "title": "Violence", "description": "Toute action violente dans une zone safe est interdite et résulte en un ban immédiat." },
+        { "id": "SZ-4", "title": "Prise d'otage", "description": "Les prises d'otages dans les zones safe sont interdites." }
+      ]
+    },
+    {
+      "name": "New Life Rule",
+      "description": "Règles sur la nouvelle vie",
+      "rules": [
+        { "id": "NLR-1", "title": "Mort RP", "description": "Après une mort RP, vous perdez tous les souvenirs des 15 dernières minutes avant votre mort." },
+        { "id": "NLR-2", "title": "Retour", "description": "Vous ne pouvez pas retourner sur les lieux de votre mort pendant au moins 30 minutes." },
+        { "id": "NLR-3", "title": "Vengeance", "description": "Vous ne pouvez pas vous venger de la personne qui vous a tué après une mort RP." },
+        { "id": "NLR-4", "title": "Communication", "description": "Il est interdit de communiquer avec des alliés après votre mort." }
+      ]
+    },
+    {
+      "name": "Value of Life",
+      "description": "Règles sur la valeur de la vie",
+      "rules": [
+        { "id": "VOL-1", "title": "Survie", "description": "Votre personnage doit tout faire pour survivre. Ne pas risquer sa vie pour de l'argent ou des objets." },
+        { "id": "VOL-2", "title": "Risque mesuré", "description": "Ne pas prendre de risques démesurés. La vie de votre personnage est précieuse." },
+        { "id": "VOL-3", "title": "Sacrifice", "description": "Sacrifier sa vie pour un gain matériel est interdit. La vie passe avant l'argent." }
+      ]
+    },
+    {
+      "name": "Win RP",
+      "description": "Règles contre le Win RP",
+      "rules": [
+        { "id": "WRP-1", "title": "Gagner à tout prix", "description": "Chercher à gagner à tout prix au détriment du RP est interdit. Acceptez les pertes." },
+        { "id": "WRP-2", "title": "Traque", "description": "Traquer un joueur jusqu'à ce qu'il quitte le serveur est interdit." },
+        { "id": "WRP-3", "title": "Refus de perte", "description": "Refuser de perdre un braquage ou une fusillade pour éviter les conséquences est interdit." },
+        { "id": "WRP-4", "title": "Sur-équipement", "description": "Se sur-équiper systématiquement pour être sûr de gagner chaque combat est interdit." }
+      ]
+    },
+    {
+      "name": "Use Bug / Use Cheat",
+      "description": "Règles sur les bugs et cheats",
+      "rules": [
+        { "id": "BUG-1", "title": "Exploitation", "description": "Exploiter un bug du jeu est interdit. Tout bug doit être signalé au staff immédiatement." },
+        { "id": "BUG-2", "title": "Cheat", "description": "L'utilisation de cheats, mods non autorisés ou logiciels tiers est interdite et résulte en un ban définitif." },
+        { "id": "BUG-3", "title": "Argent illégal", "description": "Tout argent obtenu via un bug sera retiré et des sanctions seront appliquées." },
+        { "id": "BUG-4", "title": "Dénonciation", "description": "Ne pas signaler un bug que vous utilisez est passible de ban." }
+      ]
+    },
+    {
+      "name": "Double Job",
+      "description": "Règles sur les doubles emplois",
+      "rules": [
+        { "id": "DJ-1", "title": "Emploi unique", "description": "Un personnage ne peut exercer qu'un seul emploi rémunéré à la fois." },
+        { "id": "DJ-2", "title": "Emploi illégal", "description": "Avoir un emploi légal et une activité illégale en parallèle est possible mais doit être RP." },
+        { "id": "DJ-3", "title": "Conflit d'intérêts", "description": "Vous ne pouvez pas occuper un poste dans la police et dans un gang." },
+        { "id": "DJ-4", "title": "Changement", "description": "Pour changer d'emploi, vous devez démissionner RP de votre poste actuel." }
+      ]
+    },
+    {
+      "name": "Arnaques",
+      "description": "Règles sur les arnaques RP",
+      "rules": [
+        { "id": "ARN-1", "title": "Limite", "description": "Les arnaques sont autorisées dans la limite du raisonnable et du réalisme." },
+        { "id": "ARN-2", "title": "Montant", "description": "Le montant maximum d'une arnaque est de 50% de votre cash en banque." },
+        { "id": "ARN-3", "title": "Revente", "description": "Arnaquer sur la vente d'un véhicule ou d'une propriété est interdit sans contrat RP." },
+        { "id": "ARN-4", "title": "Violence", "description": "Les arnaques ne doivent pas dégénérer en violence systématique." }
+      ]
+    },
+    {
+      "name": "Scène RP",
+      "description": "Règles sur les scènes de roleplay",
+      "rules": [
+        { "id": "SRP-1", "title": "Qualité", "description": "Toute scène RP doit être de qualité. Évitez les actions précipitées et les dialogues pauvres." },
+        { "id": "SRP-2", "title": "Durée", "description": "Une scène RP doit avoir une durée minimale de 10 minutes pour les interactions importantes." },
+        { "id": "SRP-3", "title": "Interruption", "description": "Ne pas interrompre une scène RP en cours sans raison valable." },
+        { "id": "SRP-4", "title": "Conséquences", "description": "Les conséquences d'une scène RP doivent être respectées par toutes les parties." }
+      ]
+    },
+    {
+      "name": "Gang RP",
+      "description": "Règles pour les gangs",
+      "rules": [
+        { "id": "GRP-1", "title": "Territoire", "description": "Chaque gang possède un territoire défini. Les invasions nécessitent un scénario validé." },
+        { "id": "GRP-2", "title": "Hiérarchie", "description": "Les ordres du chef de gang doivent être respectés. Les conflits internes doivent rester RP." },
+        { "id": "GRP-3", "title": "Guerre", "description": "Une guerre de gangs doit être déclarée officiellement et approuvée par le staff." },
+        { "id": "GRP-4", "title": "Recrutement", "description": "Le recrutement doit se faire en RP. Pas de recrutement HRP via Discord." },
+        { "id": "GRP-5", "title": "Alliances", "description": "Les alliances entre gangs doivent être RP et peuvent être rompues à tout moment." }
+      ]
+    },
+    {
+      "name": "Police RP",
+      "description": "Règles pour la police",
+      "rules": [
+        { "id": "PRP-1", "title": "Professionnalisme", "description": "Les membres du CPD doivent agir de manière professionnelle et respecter la loi." },
+        { "id": "PRP-2", "title": "Abus d'autorité", "description": "L'abus d'autorité est interdit. Toute action doit être justifiée." },
+        { "id": "PRP-3", "title": "Négociation", "description": "Lors d'une prise d'otage, la négociation doit être privilégiée avant l'assaut." },
+        { "id": "PRP-4", "title": "Corruption", "description": "La corruption est autorisée dans le cadre d'un scénario RP validé." }
+      ]
+    },
+    {
+      "name": "EMS RP",
+      "description": "Règles pour les services médicaux",
+      "rules": [
+        { "id": "ERP-1", "title": "Neutralité", "description": "Les EMS sont neutres et doivent soigner tout le monde sans discrimination." },
+        { "id": "ERP-2", "title": "Priorité", "description": "Les urgences vitales passent en premier. Les blessés légers doivent patienter." },
+        { "id": "ERP-3", "title": "Professionnalisme", "description": "Les EMS doivent roleplay leur métier avec sérieux et professionnalisme." },
+        { "id": "ERP-4", "title": "Signalement", "description": "Les EMS doivent signaler les blessures par balle à la police." }
+      ]
+    },
+    {
+      "name": "Organisation",
+      "description": "Règles pour les organisations",
+      "rules": [
+        { "id": "ORG-1", "title": "Création", "description": "Toute organisation doit être approuvée par le staff avant de pouvoir opérer." },
+        { "id": "ORG-2", "title": "Membres", "description": "Le nombre maximum de membres par organisation est de 15." },
+        { "id": "ORG-3", "title": "Activités", "description": "Les activités de l'organisation doivent être en accord avec son thème RP." },
+        { "id": "ORG-4", "title": "Dissolution", "description": "Le staff peut dissoudre une organisation à tout moment pour non-respect des règles." }
+      ]
+    },
+    {
+      "name": "Entreprise",
+      "description": "Règles pour les entreprises",
+      "rules": [
+        { "id": "ENT-1", "title": "Création", "description": "Toute entreprise doit être créée via les procédures légales du serveur." },
+        { "id": "ENT-2", "title": "Gestion", "description": "Les entreprises doivent être gérées de manière réaliste avec des employés RP." },
+        { "id": "ENT-3", "title": "Faillite", "description": "Une entreprise peut faire faillite si elle n'est pas rentable pendant 30 jours." },
+        { "id": "ENT-4", "title": "Revente", "description": "La revente d'une entreprise doit se faire par contrat RP validé." }
+      ]
+    },
+    {
+      "name": "Sanctions",
+      "description": "Règles sur les sanctions",
+      "rules": [
+        { "id": "SAN-1", "title": "Avertissement", "description": "Un avertissement est donné pour les infractions mineures. 3 avertissements = ban temporaire." },
+        { "id": "SAN-2", "title": "Kick", "description": "Le kick est utilisé pour les infractions légères ou les comportements perturbateurs." },
+        { "id": "SAN-3", "title": "Mute", "description": "Le mute est appliqué en cas de non-respect du chat vocal ou écrit." },
+        { "id": "SAN-4", "title": "Warn", "description": "Les warns sont cumulables et mènent à des sanctions progressives." },
+        { "id": "SAN-5", "title": "Ban temporaire", "description": "La durée du ban temporaire est déterminée selon la gravité de l'infraction." }
+      ]
+    },
+    {
+      "name": "Ban",
+      "description": "Règles sur les bannissements",
+      "rules": [
+        { "id": "BAN-1", "title": "Ban définitif", "description": "Le ban définitif est appliqué pour les cas graves : cheat, exploit, harcèlement." },
+        { "id": "BAN-2", "title": "Appel", "description": "Un joueur banni peut faire appel sur le Discord avec les preuves nécessaires." },
+        { "id": "BAN-3", "title": "Contournement", "description": "Contourner un ban avec un autre compte résulte en un ban IP définitif." },
+        { "id": "BAN-4", "title": "Révision", "description": "Les bans définitifs peuvent être révisés après 6 mois sur demande motivée." }
+      ]
+    },
+    {
+      "name": "Whitelist",
+      "description": "Règles sur la whitelist",
+      "rules": [
+        { "id": "WL-1", "title": "Obtention", "description": "La whitelist s'obtient via une candidature validée par le staff." },
+        { "id": "WL-2", "title": "Retrait", "description": "La whitelist peut être retirée en cas de non-respect répété des règles." },
+        { "id": "WL-3", "title": "Whitelist métier", "description": "Certains métiers (police, EMS) nécessitent une whitelist spécifique." },
+        { "id": "WL-4", "title": "Suspension", "description": "Une whitelist peut être suspendue temporairement le temps d'une enquête." }
+      ]
+    }
+  ]
+}

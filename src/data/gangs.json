@@ -1,0 +1,85 @@
+{
+  "lastUpdated": "2025-01-01",
+  "gangs": [
+    {
+      "name": "OTF",
+      "fullName": "Only The Family",
+      "description": "Collectif drill fondé par Chief Keef. Basé dans le South Side de Chicago, OTF est l'un des gangs les plus influents de la scène drill. Connu pour son unité et sa loyauté absolue envers la famille.",
+      "territory": "South Side",
+      "color": "#7C3AED",
+      "image": ""
+    },
+    {
+      "name": "NLMB",
+      "fullName": "Never Leave My Brothers",
+      "description": "Gang drill d'Englewood, Chicago. Fondé sur le principe de loyauté fraternelle, NLMB est connu pour sa présence sur les réseaux sociaux et son influence dans le rap drill.",
+      "territory": "Englewood",
+      "color": "#1E90FF",
+      "image": ""
+    },
+    {
+      "name": "GD",
+      "fullName": "Gangster Disciples",
+      "description": "L'un des plus grands gangs de Chicago, fondé par Larry Hoover. Membre de l'alliance Folks. Les GD contrôlent une grande partie du trafic dans le South Side et sont organisés de manière militaire.",
+      "territory": "South Side",
+      "color": "#006400",
+      "image": ""
+    },
+    {
+      "name": "Vice Lords",
+      "fullName": "Conservative Vice Lords",
+      "description": "L'un des plus anciens et plus grands gangs de Chicago. Membres de l'alliance People. Reconnaissables à leurs symboles et couleurs, les Vice Lords sont présents dans toute la ville.",
+      "territory": "North Side",
+      "color": "#800080",
+      "image": ""
+    },
+    {
+      "name": "Black P Stones",
+      "fullName": "Black P Stone Nation",
+      "description": "Gang historique de Chicago fondé par Jeff Fort. Membre de l'alliance People. Les BPS sont connus pour leur influence politique et leur présence dans le South Side.",
+      "territory": "South Side",
+      "color": "#000000",
+      "image": ""
+    },
+    {
+      "name": "BD",
+      "fullName": "Black Disciples",
+      "description": "Gang historique de Chicago fondé par David Barksdale. Membre de l'alliance Folks. Les BD sont implantés principalement dans le South Side et l'Ouest de Chicago.",
+      "territory": "West Side",
+      "color": "#000000",
+      "image": ""
+    },
+    {
+      "name": "Vice Lords",
+      "fullName": "Conservative Vice Lords",
+      "description": "L'un des plus anciens et plus grands gangs de Chicago. Membres de l'alliance People. Reconnaissables à leurs symboles et couleurs, les Vice Lords sont présents dans toute la ville.",
+      "territory": "North Side",
+      "color": "#800080",
+      "image": ""
+    },
+    {
+      "name": "600",
+      "fullName": "600 Gang",
+      "description": "Gang drill originaire du secteur de la 63e rue à Chicago. Célèbre pour avoir popularisé le son drill avec des artistes comme FBG Duck. Rivaux historiques des OTF.",
+      "territory": "63rd Street",
+      "color": "#FF4500",
+      "image": ""
+    },
+    {
+      "name": "300",
+      "fullName": "300 Gang",
+      "description": "Gang drill de Lawndale, Chicago. Connus pour leur rivalité féroce avec d'autres gangs du secteur. Leur nom fait référence au code postal du quartier.",
+      "territory": "Lawndale",
+      "color": "#FFD700",
+      "image": ""
+    },
+    {
+      "name": "051YM",
+      "fullName": "051 Young Money",
+      "description": "Gang drill d'Englewood associé à la mouvance Young Money. Rivaux des 300, ils contrôlent une partie significative du trafic dans Englewood et sont connus pour leur présence musicale.",
+      "territory": "Englewood East",
+      "color": "#00CED1",
+      "image": "https://cdn.discordapp.com/attachments/1498352332801310760/1498352333015224471/image.png?ex=6a51bf1a&is=6a506d9a&hm=40d583b900af0cc003b65c5b7d1a6020d4315d8dc343ff55f3b49eb1bac9bf92&"
+    }
+  ]
+}

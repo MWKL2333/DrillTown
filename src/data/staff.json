@@ -1,0 +1,61 @@
+{
+  "lastUpdated": "2025-01-01",
+  "members": [
+    {
+      "name": "BigHomies",
+      "role": "Owner/Creator",
+      "image": "https://cdn.discordapp.com/attachments/1477016470520070175/1525064814475350036/Screenshot_2026-06-01_222952.png?ex=6a5206ca&is=6a50b54a&hm=0d8d7fcdab09e86cdd3d217464511251940445273c8b8601ed961da1adb5356a&",
+      "discord": "BigHomies#0001",
+      "description": "Fondateur et développeur principal de DrillTown. Visionnaire du projet et responsable de l'infrastructure technique."
+    },
+    {
+      "name": "Double DA",
+      "role": "Co-fondateur",
+      "image": "https://cdn.discordapp.com/attachments/1477016470520070175/1525064815121399929/Screenshot_2026-06-08_140937.png?ex=6a5206ca&is=6a50b54a&hm=4dac2d7a9c4b49f0ee3339de201b52c5bc4eee7eaf36d7ea1791dc5e6ad40906&",
+      "discord": "Papazgui",
+      "description": "Co-fondateur de DrillTown, en charge de la gestion communautaire et du développement des scénarios RP."
+    },
+    {
+      "name": "AmZTTV",
+      "role": "Manager",
+      "image": "https://cdn.discordapp.com/attachments/1477016470520070175/1525064815762997289/Screenshot_2026-06-07_171534.png?ex=6a5206ca&is=6a50b54a&hm=e76f90a0c4766e0b81f50f5fcd628e8d32f11792d0c7937bec4c4b6b284b590a&",
+      "discord": "AmZTTV",
+      "description": "Manager en charge de la modération et de la gestion des litiges entre joueurs."
+    },
+    {
+      "name": "Mohh",
+      "role": "Manager",
+      "image": "https://cdn.discordapp.com/attachments/1477016470520070175/1525064816371302410/Screenshot_1.png?ex=6a5206ca&is=6a50b54a&hm=016b6d19c91eccb4ecfd2571e558b7a9e746f218a678914486efb7e9e9afb88d&",
+      "discord": "Exetingz",
+      "description": "Manager responsable des événements RP et du développement des scripts serveur."
+    },
+    {
+      "name": "",
+      "role": "Modérateur",
+      "image": "",
+      "discord": "",
+      "description": "Modératrice en charge de la surveillance du chat vocal et écrit, et de l'application des sanctions."
+    },
+    {
+      "name": "",
+      "role": "Modérateur",
+      "image": "",
+      "discord": "",
+      "description": "Modérateur spécialisé dans la gestion des plaintes et des reports en jeu."
+    },
+    {
+      "name": "",
+      "role": "Modérateur",
+      "image": "",
+      "discord": "",
+      "description": "Modératrice en charge de la whitelist et du suivi des candidatures."
+    },
+    {
+      "name": "",
+      "role": "Développeur",
+      "image": "",
+      "discord": "",
+      "description": "Développeur full-stack en charge des scripts, de la map et des fonctionnalités du serveur."
+    }
+  ]
+}
