@@ -56,11 +56,12 @@ const footerLinks = [
     ],
   },
   {
-    title: "Légal",
+    title: "Légal & Admin",
     links: [
       { label: "Mentions Légales", href: "/mentions-legales" },
       { label: "Confidentialité", href: "/confidentialite" },
       { label: "Changelog", href: "/changelog" },
+      { label: "Panel Staff Admin", href: "/admin" },
     ],
   },
 ];

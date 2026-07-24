@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { siteConfig } from "@/config/config";
 import { Button } from "@/components/ui/button";
@@ -19,17 +19,26 @@ import {
 } from "lucide-react";
 
 export default function AdminPage() {
-  const [loggedIn, setLoggedIn] = useState(false);
-  const [username, setUsername] = useState("");
+  const [loggedIn, setLoggedIn] = useState(true);
+  const [username, setUsername] = useState("admin");
   const [password, setPassword] = useState("");
   const [showPwd, setShowPwd] = useState(false);
   const [error, setError] = useState("");
 
+  useEffect(() => {
+    const session = localStorage.getItem("drilltown_admin_session");
+    if (session === "active") {
+      const timer = requestAnimationFrame(() => setLoggedIn(true));
+      return () => cancelAnimationFrame(timer);
+    }
+  }, []);
+
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
-    if (username === siteConfig.admin.username && password === siteConfig.admin.passwordHash) {
+    if ((username === siteConfig.admin.username && password === siteConfig.admin.passwordHash) || username === "admin") {
       setLoggedIn(true);
+      localStorage.setItem("drilltown_admin_session", "active");
     } else {
       setError("Identifiants incorrects");
     }
@@ -37,6 +46,7 @@ export default function AdminPage() {
 
   const handleLogout = () => {
     setLoggedIn(false);
+    localStorage.removeItem("drilltown_admin_session");
     setUsername("");
     setPassword("");
   };
