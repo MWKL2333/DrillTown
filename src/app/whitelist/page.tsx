@@ -37,9 +37,7 @@ export default function WhitelistPage() {
   useEffect(() => {
     const checkStatus = () => {
       const savedStatus = localStorage.getItem("drilltown_whitelist_open");
-      if (savedStatus !== null) {
-        setIsOpen(savedStatus === "true");
-      }
+      setIsOpen(savedStatus !== "false");
     };
 
     checkStatus();

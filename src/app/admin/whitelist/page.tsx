@@ -37,10 +37,8 @@ export default function AdminWhitelistPage() {
 
   useEffect(() => {
     const savedStatus = localStorage.getItem("drilltown_whitelist_open");
-    if (savedStatus !== null) {
-      const timer = requestAnimationFrame(() => setIsOpen(savedStatus === "true"));
-      return () => cancelAnimationFrame(timer);
-    }
+    const timer = requestAnimationFrame(() => setIsOpen(savedStatus !== "false"));
+    return () => cancelAnimationFrame(timer);
   }, []);
 
   // Load real applications from localStorage
