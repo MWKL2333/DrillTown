@@ -34,7 +34,7 @@ export function PageHeader({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-4xl md:text-6xl lg:text-7xl font-black mb-4 neon-text"
+          className="font-display text-5xl md:text-7xl lg:text-8xl tracking-wider mb-4 neon-text uppercase"
         >
           {title}
         </motion.h1>
