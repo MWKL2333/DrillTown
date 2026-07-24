@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: "Le serveur RP Chicago le plus immersif",
   description:
     "DrillTown est un serveur FiveM RP immersif dans l'univers de la Drill. Rejoignez une communauté unique où le roleplay rencontre le style Chicago.",
-  logo: "/logo.svg",
+  logo: "/logo.png",
   logoText: "DRILLTOWN",
   favicon: "/favicon.svg",
   colors: {
@@ -23,10 +23,9 @@ export const siteConfig = {
     discord: "#5865F2",
   },
   server: {
-    ip: "node01.myhoster.fr:30124",
-    cfx: "cfx.re/join/alrre5",
-    cfxId: "alrre5",
-    port: 30124,
+    cfx: "cfx.re/join/4gbko4v",
+    cfxId: "4gbko4v",
+    port: 30143,
     name: "DrillTown RP",
     maxPlayers: 128,
   },
@@ -97,11 +96,11 @@ export const siteConfig = {
     },
   ],
   statistics: {
-    players: 15000,
-    playTime: "2.5M+",
-    factions: 25,
-    vehicles: 200,
-    scripts: 150,
+    players: 64,
+    playTime: "5000h",
+    factions: "15+",
+    vehicles: "250+",
+    scripts: "150+",
   },
   timeline: [
     {
@@ -115,12 +114,12 @@ export const siteConfig = {
       description: "Premiers tests avec la communauté fondatrice.",
     },
     {
-      date: "2025 - Q3",
+      date: "2026 - Q3",
       title: "Bêta Ouverte",
       description: "Ouverture des inscriptions et premiers joueurs.",
     },
     {
-      date: "2025 - Q4",
+      date: "2026 - Q4",
       title: "Lancement Officiel",
       description: "Sortie officielle du serveur DrillTown RP.",
     },
