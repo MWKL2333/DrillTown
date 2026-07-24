@@ -22,7 +22,7 @@ const sampleVehicles = [
     tag: "Import Exclusif",
     desc: "Le SUV légendaire de la scène Chicago Drill. Puissance brute et tenue de route maximale.",
     color: "#7C3AED",
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80",
+    image: "https://img.gta5-mods.com/q75-w500-h333-cfill/images/2020-jeep-trackhawk-srt-add-on-fivem/912c47-1.bak.png",
   },
   {
     name: "Dodge Charger SRT Hellcat Widebody",
@@ -32,7 +32,7 @@ const sampleVehicles = [
     tag: "Véhicule Faction",
     desc: "V8 HEMI suralimenté. Véhicule indispensable pour les courses-poursuites et interventions lourdes.",
     color: "#ef4444",
-    image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
+    image: "https://files.libertycity.net/download/gta5_dodge/thumbs/2023-09/dodge-charger-srt-hellcat-redeye_1694110193_53235.webp",
   },
   {
     name: "Mercedes-AMG G63 Brabus 800",
@@ -42,7 +42,7 @@ const sampleVehicles = [
     tag: "Luxe & VIP",
     desc: "Blindé, imposant et customisé. Confort absolu pour les leaders de gangs et chefs d'entreprise.",
     color: "#f59e0b",
-    image: "https://images.unsplash.com/photo-1520050206274-a1ae44613e6d?auto=format&fit=crop&w=800&q=80",
+    image: "https://img.gta5-mods.com/q95/images/brabus-g-class-g800/3504c4-QQ%E6%88%AA%E5%9B%BE20210316174633.png",
   },
   {
     name: "Lamborghini Urus Performante",
@@ -52,7 +52,7 @@ const sampleVehicles = [
     tag: "Supercar",
     desc: "Aérodynamisme affûté et accélération foudroyante sur l'asphalte de Chicago.",
     color: "#22c55e",
-    image: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80",
+    image: "https://files.libertycity.net/download/gta5_lamborghini/fulls/2024-01/lamborghini-urus-mansory-coupe-add-on_1704969594_661942.webp",
   },
   {
     name: "Chevy Impala 1964 Custom Lowrider",
@@ -62,7 +62,7 @@ const sampleVehicles = [
     tag: "Classic RP",
     desc: "Système de suspensions hydrauliques ajustables en direct. Style rétro emblématique.",
     color: "#A855F7",
-    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80",
+    image: "https://img.gta5-mods.com/q95/images/chevrolet-impala-1964-ss-hard-top/4be5ab-Previewwahl.png",
   },
   {
     name: "Yamaha YZF-R1M & Cross YZ450F",
@@ -72,7 +72,7 @@ const sampleVehicles = [
     tag: "Moto Bikelife",
     desc: "Conçues pour la Bikelife urbaine, les acrobaties et l'évasion rapide en ruelle.",
     color: "#3b82f6",
-    image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+    image: "https://img.gta5-mods.com/q95/images/2018-yamaha-yzf-r1-addons-tuning/c60258-h.jpg",
   },
 ];
 
@@ -108,11 +108,10 @@ export default function VehiculesPage() {
               <button
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
-                className={`px-5 py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all ${
-                  activeCategory === cat.id
+                className={`px-5 py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all ${activeCategory === cat.id
                     ? "bg-[#7C3AED] text-white shadow-lg shadow-[#7C3AED]/30 scale-105"
                     : "bg-[#1a1a1a] text-[#9ca3af] border border-[#2a2a2a] hover:border-[#7C3AED]/50 hover:text-white"
-                }`}
+                  }`}
               >
                 {cat.name}
               </button>
@@ -138,7 +137,7 @@ export default function VehiculesPage() {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-transparent to-transparent" />
-                    
+
                     <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
                       <span
                         className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border backdrop-blur-md"
