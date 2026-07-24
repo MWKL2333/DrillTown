@@ -6,7 +6,6 @@ import { PageHeader } from "@/components/shared/page-header";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/config/config";
 import {
-  ShieldCheck,
   Lock,
   Unlock,
   CheckCircle2,
@@ -42,12 +41,6 @@ export default function WhitelistPage() {
       return () => cancelAnimationFrame(timer);
     }
   }, []);
-
-  const toggleSessionStatus = () => {
-    const nextStatus = !isOpen;
-    setIsOpen(nextStatus);
-    localStorage.setItem("drilltown_whitelist_open", String(nextStatus));
-  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -92,44 +85,6 @@ export default function WhitelistPage() {
 
       <section className="section-padding pt-0">
         <div className="max-w-4xl mx-auto px-4">
-          {/* Admin Control Bar */}
-          <div className="mb-8 p-4 rounded-xl bg-[#121212] border border-[#2a2a2a] flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-lg bg-[#7C3AED]/20 border border-[#7C3AED]/40 flex items-center justify-center text-[#7C3AED]">
-                <ShieldCheck size={18} />
-              </div>
-              <div>
-                <p className="text-white text-xs font-bold uppercase tracking-wider">
-                  Contrôle Staff Whitelist
-                </p>
-                <p className="text-[#9ca3af] text-[11px]">
-                  Gérez l&apos;ouverture et la fermeture des sessions de candidature en direct.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <span className="text-xs text-[#9ca3af] font-semibold">Statut actuel:</span>
-              <button
-                onClick={toggleSessionStatus}
-                className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
-                  isOpen
-                    ? "bg-green-500/20 text-green-400 border border-green-500/40 hover:bg-green-500/30"
-                    : "bg-red-500/20 text-red-400 border border-red-500/40 hover:bg-red-500/30"
-                }`}
-              >
-                {isOpen ? (
-                  <>
-                    <Unlock size={14} /> SESSIONS OUVERTES
-                  </>
-                ) : (
-                  <>
-                    <Lock size={14} /> SESSIONS FERMÉES
-                  </>
-                )}
-              </button>
-            </div>
-          </div>
 
           {/* Main Status Header Banner */}
           <motion.div
