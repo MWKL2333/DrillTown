@@ -71,6 +71,11 @@ export default function AdminWhitelistPage() {
     const next = !isOpen;
     setIsOpen(next);
     localStorage.setItem("drilltown_whitelist_open", String(next));
+    try {
+      window.dispatchEvent(new CustomEvent("drilltown_whitelist_status_change", { detail: next }));
+    } catch {
+      // fallback
+    }
   };
 
   const updateStatus = (id: string, newStatus: "approved" | "rejected") => {

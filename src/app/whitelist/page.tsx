@@ -33,13 +33,33 @@ export default function WhitelistPage() {
     ruleConsent: false,
   });
 
-  // Load whitelist status from localStorage
+  // Load whitelist status from localStorage & listen for real-time changes
   useEffect(() => {
-    const savedStatus = localStorage.getItem("drilltown_whitelist_open");
-    if (savedStatus !== null) {
-      const timer = requestAnimationFrame(() => setIsOpen(savedStatus === "true"));
-      return () => cancelAnimationFrame(timer);
-    }
+    const checkStatus = () => {
+      const savedStatus = localStorage.getItem("drilltown_whitelist_open");
+      if (savedStatus !== null) {
+        setIsOpen(savedStatus === "true");
+      }
+    };
+
+    checkStatus();
+
+    const handleCustomChange = (e: Event) => {
+      const customEvt = e as CustomEvent;
+      if (customEvt.detail !== undefined) {
+        setIsOpen(Boolean(customEvt.detail));
+      } else {
+        checkStatus();
+      }
+    };
+
+    window.addEventListener("storage", checkStatus);
+    window.addEventListener("drilltown_whitelist_status_change", handleCustomChange);
+
+    return () => {
+      window.removeEventListener("storage", checkStatus);
+      window.removeEventListener("drilltown_whitelist_status_change", handleCustomChange);
+    };
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
