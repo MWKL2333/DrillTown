@@ -23,6 +23,7 @@ export const siteConfig = {
     discord: "#5865F2",
   },
   server: {
+    ip: "cfx.re/join/4gbko4v",
     cfx: "cfx.re/join/4gbko4v",
     cfxId: "4gbko4v",
     port: 30143,
