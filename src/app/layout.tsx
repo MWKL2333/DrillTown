@@ -75,7 +75,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: siteConfig.favicon, type: "image/svg+xml" },
+      { url: siteConfig.favicon, type: "image/png" },
       { url: "/favicon.ico", sizes: "32x32" },
     ],
     apple: siteConfig.favicon,
@@ -101,7 +101,7 @@ export default function RootLayout({
                 "@type": "Organization",
                 name: siteConfig.siteName,
                 url: "https://drilltown.fr",
-                logo: "https://drilltown.fr/logo.svg",
+                logo: "https://drilltown.fr/logo.png",
                 description: siteConfig.description,
                 sameAs: Object.values(siteConfig.socials).filter(Boolean),
                 contactPoint: {

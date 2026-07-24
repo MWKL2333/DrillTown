@@ -5,7 +5,7 @@ export const siteConfig = {
     "DrillTown est un serveur FiveM RP immersif dans l'univers de la Drill. Rejoignez une communauté unique où le roleplay rencontre le style Chicago.",
   logo: "/logo.png",
   logoText: "DRILLTOWN",
-  favicon: "/favicon.svg",
+  favicon: "/logo.png",
   colors: {
     primary: "#7C3AED",
     primaryDark: "#5B21B6",
