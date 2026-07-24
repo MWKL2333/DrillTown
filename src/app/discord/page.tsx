@@ -12,13 +12,17 @@ import {
   ArrowRight,
 } from "lucide-react";
 
+import { useServerStatus } from "@/hooks/use-server-status";
+
 export default function DiscordPage() {
+  const { discord } = useServerStatus();
+
   return (
     <div className="min-h-screen bg-[#0a0a0a]">
       <PageHeader
         badge="Discord"
         title="Notre Communauté Discord"
-        description="Rejoignez des milliers de joueurs sur Discord"
+        description="Rejoignez la communauté DrillTown sur Discord"
       />
 
       <section className="section-padding pt-0">
@@ -36,7 +40,7 @@ export default function DiscordPage() {
                   </div>
                   <div>
                     <h2 className="text-xl font-bold text-white">
-                      Discord
+                      {discord.guildName || "DrillTown Discord"}
                     </h2>
                     <p className="text-sm text-[#9ca3af]">
                       {siteConfig.discord.inviteUrl}
@@ -48,13 +52,13 @@ export default function DiscordPage() {
                   {[
                     {
                       label: "Membres",
-                      value: "5,000+",
+                      value: discord.memberCount ? `${discord.memberCount}` : "130+",
                       icon: <Users size={20} />,
                       color: "#5865F2",
                     },
                     {
                       label: "En ligne",
-                      value: "1,200+",
+                      value: discord.presenceCount ? `${discord.presenceCount}` : "30+",
                       icon: <Wifi size={20} />,
                       color: "#22c55e",
                     },

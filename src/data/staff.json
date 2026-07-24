@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-01-01",
+  "lastUpdated": "2026-01-01",
   "members": [
     {
       "name": "BigHomies",
@@ -16,11 +16,11 @@
       "description": "Co-fondateur de DrillTown, en charge de la gestion communautaire et du développement des scénarios RP."
     },
     {
-      "name": "AmZTTV",
+      "name": "Chamtar",
       "role": "Manager",
       "image": "https://cdn.discordapp.com/attachments/1477016470520070175/1525064815762997289/Screenshot_2026-06-07_171534.png?ex=6a5206ca&is=6a50b54a&hm=e76f90a0c4766e0b81f50f5fcd628e8d32f11792d0c7937bec4c4b6b284b590a&",
       "discord": "AmZTTV",
-      "description": "Manager en charge de la modération et de la gestion des litiges entre joueurs."
+      "description": "Manager en charge de la modération et de la gestion des scripts."
     },
     {
       "name": "Mohh",
@@ -30,24 +30,24 @@
       "description": "Manager responsable des événements RP et du développement des scripts serveur."
     },
     {
-      "name": "",
+      "name": "Hiroshima",
       "role": "Modérateur",
       "image": "",
       "discord": "",
       "description": "Modératrice en charge de la surveillance du chat vocal et écrit, et de l'application des sanctions."
     },
     {
-      "name": "",
+      "name": "Lil-T",
       "role": "Modérateur",
       "image": "",
       "discord": "",
       "description": "Modérateur spécialisé dans la gestion des plaintes et des reports en jeu."
     },
     {
-      "name": "",
+      "name": "Leflezs",
       "role": "Modérateur",
-      "image": "",
-      "discord": "",
+      "image": "https://cdn.discordapp.com/attachments/1516048295460606003/1530172145098035220/ChatGPT_Image_13_juil._2026_16_46_02.png?ex=6a649b5c&is=6a6349dc&hm=de87f8fdb96bd4a87ed2571902072473690b9e0b25123015f196fbd8d04f8db5&",
+      "discord": "tv-leflezs",
       "description": "Modératrice en charge de la whitelist et du suivi des candidatures."
     },
     {
