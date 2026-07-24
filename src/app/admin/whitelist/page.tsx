@@ -29,42 +29,9 @@ interface Candidate {
   status: "pending" | "approved" | "rejected";
 }
 
-const defaultCandidates: Candidate[] = [
-  {
-    id: "wl-101",
-    discordTag: "Marcus_OBlock#7890",
-    age: "19",
-    rpName: "Marcus Jenkins",
-    backstory: "Ancien résident de Park Manor, Marcus a grandi au milieu des tensions de rue. Arrivé à DrillTown pour reconstruire son studio de musique indépendant.",
-    fearRpAns: "Si deux braqueurs me pointent avec des armes dans une ruelle, je lève les mains, n'oppose aucune résistance physique et joue la peur réelle de mon personnage.",
-    date: "Aujourd'hui à 13:45",
-    status: "pending",
-  },
-  {
-    id: "wl-102",
-    discordTag: "Kev_Chicago#1234",
-    age: "21",
-    rpName: "Derrick Vance",
-    backstory: "Passé par l'académie de police de Chicago puis reconverti dans la sécurité privée. Recherche du RP sérieux et immersif côté légal.",
-    fearRpAns: "Le FearRP m'oblige à respecter la peur de la mort. Je n'essaierai pas d'utiliser mon arme si quelqu'un a déjà le dessus sur moi.",
-    date: "Hier à 21:15",
-    status: "approved",
-  },
-  {
-    id: "wl-103",
-    discordTag: "BadBoy_Drill#5555",
-    age: "15",
-    rpName: "Jay-Z",
-    backstory: "Je veux juste braquer les banques et tuer tout le monde.",
-    fearRpAns: "Je tire et je m'enfuis en voiture.",
-    date: "Hier à 19:30",
-    status: "rejected",
-  },
-];
-
 export default function AdminWhitelistPage() {
   const [isOpen, setIsOpen] = useState(true);
-  const [candidates, setCandidates] = useState<Candidate[]>(defaultCandidates);
+  const [candidates, setCandidates] = useState<Candidate[]>([]);
   const [filterStatus, setFilterStatus] = useState<"all" | "pending" | "approved" | "rejected">("all");
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -76,6 +43,30 @@ export default function AdminWhitelistPage() {
     }
   }, []);
 
+  // Load real applications from localStorage
+  useEffect(() => {
+    try {
+      const storedApps = localStorage.getItem("drilltown_whitelist_applications");
+      if (storedApps) {
+        const parsed = JSON.parse(storedApps);
+        if (Array.isArray(parsed)) {
+          const timer = requestAnimationFrame(() => setCandidates(parsed));
+          return () => cancelAnimationFrame(timer);
+        }
+      }
+    } catch {
+      // fallback
+    }
+  }, []);
+
+  const saveApplicationsToStorage = (updatedCandidates: Candidate[]) => {
+    try {
+      localStorage.setItem("drilltown_whitelist_applications", JSON.stringify(updatedCandidates));
+    } catch {
+      // fallback
+    }
+  };
+
   const toggleSession = () => {
     const next = !isOpen;
     setIsOpen(next);
@@ -83,13 +74,19 @@ export default function AdminWhitelistPage() {
   };
 
   const updateStatus = (id: string, newStatus: "approved" | "rejected") => {
-    setCandidates((prev) =>
-      prev.map((c) => (c.id === id ? { ...c, status: newStatus } : c))
-    );
+    setCandidates((prev) => {
+      const updated = prev.map((c) => (c.id === id ? { ...c, status: newStatus } : c));
+      saveApplicationsToStorage(updated);
+      return updated;
+    });
   };
 
   const deleteCandidate = (id: string) => {
-    setCandidates((prev) => prev.filter((c) => c.id !== id));
+    setCandidates((prev) => {
+      const updated = prev.filter((c) => c.id !== id);
+      saveApplicationsToStorage(updated);
+      return updated;
+    });
   };
 
   const filteredCandidates = candidates.filter((c) => {

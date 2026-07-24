@@ -52,6 +52,33 @@ export default function WhitelistPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.ruleConsent) return;
+
+    const newApplication = {
+      id: "wl-" + Date.now(),
+      discordTag: formData.discordTag,
+      age: formData.age,
+      rpName: formData.rpName,
+      backstory: formData.backstory,
+      fearRpAns: formData.fearRpAns,
+      date: new Date().toLocaleString("fr-FR", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
+      status: "pending",
+    };
+
+    try {
+      const existing = localStorage.getItem("drilltown_whitelist_applications");
+      const apps = existing ? JSON.parse(existing) : [];
+      apps.unshift(newApplication);
+      localStorage.setItem("drilltown_whitelist_applications", JSON.stringify(apps));
+    } catch {
+      // fallback
+    }
+
     setSubmitted(true);
   };
 
