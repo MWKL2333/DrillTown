@@ -22,7 +22,7 @@ export function TimelineSection() {
             <span className="text-gradient-red">Histoire</span>
           </h2>
           <p className="text-[#9ca3af] text-lg">
-            L'évolution de {siteConfig.siteName} à travers les époques
+            L&apos;évolution de {siteConfig.siteName} à travers les époques
           </p>
         </motion.div>
 

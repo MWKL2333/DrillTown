@@ -31,7 +31,8 @@ export function Navbar() {
   }, []);
 
   useEffect(() => {
-    setIsOpen(false);
+    const timer = requestAnimationFrame(() => setIsOpen(false));
+    return () => cancelAnimationFrame(timer);
   }, [pathname]);
 
   return (

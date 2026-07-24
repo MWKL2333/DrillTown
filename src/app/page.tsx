@@ -85,7 +85,7 @@ export default function HomePage() {
               <span className="text-gradient-red">{siteConfig.siteName}</span> ?
             </h2>
             <p className="text-[#9ca3af] text-lg mb-8 max-w-xl mx-auto">
-              Télécharge FiveM, connecte-toi et plonge dans l'univers impitoyable de Chicago.
+              Télécharge FiveM, connecte-toi et plonge dans l&apos;univers impitoyable de Chicago.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/connexion">

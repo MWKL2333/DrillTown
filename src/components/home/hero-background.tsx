@@ -12,7 +12,7 @@ export function HeroBackground() {
     if (!ctx) return;
 
     let animId: number;
-    let particles: { x: number; y: number; vx: number; vy: number; size: number; alpha: number }[] = [];
+    const particles: { x: number; y: number; vx: number; vy: number; size: number; alpha: number }[] = [];
     let mouseX = 0.5;
     let mouseY = 0.5;
 
@@ -22,11 +22,6 @@ export function HeroBackground() {
     };
     resize();
     window.addEventListener("resize", resize);
-
-    const isDark = (x: number, y: number) => {
-      const img = ctx.getImageData(x, y, 1, 1).data;
-      return (img[0] + img[1] + img[2]) / 3 < 128;
-    };
 
     for (let i = 0; i < 80; i++) {
       particles.push({
