@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { siteConfig } from "@/config/config";
 import { Button } from "@/components/ui/button";
 import { 
@@ -10,14 +10,12 @@ import {
   EyeOff, 
   LayoutDashboard, 
   FileText, 
-  Image, 
+  Image as ImageIcon, 
   Settings, 
   Users, 
   LogOut,
-  Save,
   AlertCircle,
-  CheckCircle,
-  X
+  ShieldCheck,
 } from "lucide-react";
 
 export default function AdminPage() {
@@ -26,7 +24,6 @@ export default function AdminPage() {
   const [password, setPassword] = useState("");
   const [showPwd, setShowPwd] = useState(false);
   const [error, setError] = useState("");
-  const [saved, setSaved] = useState(false);
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -62,7 +59,7 @@ export default function AdminPage() {
             </div>
             <form onSubmit={handleLogin} className="space-y-4">
               <div>
-                <label className="block text-white text-sm font-medium mb-2">Nom d'utilisateur</label>
+                <label className="block text-white text-sm font-medium mb-2">Nom d&apos;utilisateur</label>
                 <input
                   type="text"
                   value={username}
@@ -122,9 +119,9 @@ export default function AdminPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           {[
             { label: "Pages", value: 34, icon: <FileText />, color: "#7C3AED" },
-            { label: "Images", value: 12, icon: <Image />, color: "#22c55e" },
+            { label: "Images", value: 12, icon: <ImageIcon />, color: "#22c55e" },
             { label: "Staff", value: 8, icon: <Users />, color: "#3b82f6" },
-            { label: "Rgles", value: 101, icon: <Settings />, color: "#f59e0b" },
+            { label: "Règles", value: 101, icon: <Settings />, color: "#f59e0b" },
           ].map((stat) => (
             <div key={stat.label} className="p-5 rounded-xl bg-[#1a1a1a] border border-[#2a2a2a]">
               <div className="flex items-center justify-between mb-3">
@@ -159,21 +156,30 @@ export default function AdminPage() {
             <h2 className="text-lg font-bold text-white mb-4">Actions rapides</h2>
             <div className="space-y-3">
               {[
-                { label: "Modifier le rglement", desc: "rgles du serveur" },
-                { label: "Grer le staff", desc: "quipe de modration" },
-                { label: "Grer les actualits", desc: "news et annonces" },
-                { label: "Grer la FAQ", desc: "questions frquentes" },
-              ].map((action) => (
-                <div key={action.label} className="flex items-center justify-between p-3 rounded-lg bg-[#0a0a0a] border border-[#2a2a2a]">
-                  <div>
-                    <p className="text-white text-sm font-medium">{action.label}</p>
-                    <p className="text-[#9ca3af] text-xs">{action.desc}</p>
-                  </div>
-                  <Button variant="ghost" size="sm">
-                    <Settings size={16} />
-                  </Button>
-                </div>
-              ))}
+                { label: "Gestion des Whitelists", desc: "Accepter / Refuser les candidatures RP", href: "/admin/whitelist", icon: ShieldCheck },
+                { label: "Modifier le règlement", desc: "Règles et FearRP du serveur", href: "/reglement", icon: Settings },
+                { label: "Gérer l'équipe Staff", desc: "Membres de modération", href: "/equipe", icon: Users },
+                { label: "Actualités & News", desc: "Annonces et mises à jour", href: "/actualites", icon: FileText },
+              ].map((action) => {
+                const Icon = action.icon;
+                return (
+                  <a
+                    key={action.label}
+                    href={action.href}
+                    className="flex items-center justify-between p-3 rounded-lg bg-[#0a0a0a] border border-[#2a2a2a] hover:border-[#7C3AED]/50 transition-all group"
+                  >
+                    <div>
+                      <p className="text-white text-sm font-medium group-hover:text-[#A855F7] transition-colors">
+                        {action.label}
+                      </p>
+                      <p className="text-[#9ca3af] text-xs">{action.desc}</p>
+                    </div>
+                    <Button variant="ghost" size="sm">
+                      <Icon size={16} className="text-[#7C3AED]" />
+                    </Button>
+                  </a>
+                );
+              })}
             </div>
           </div>
 
