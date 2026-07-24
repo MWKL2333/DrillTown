@@ -46,7 +46,7 @@ export default function ConnexionPage() {
   };
 
   const handleConnect = () => {
-    window.open(`fivem://connect/${siteConfig.server.ip}`, "_blank");
+    window.location.href = `fivem://connect/${siteConfig.server.cfx}`;
   };
 
   return (
@@ -195,7 +195,7 @@ export default function ConnexionPage() {
                       </div>
                     </div>
                     <p className="text-[#9ca3af] text-sm">
-                      Prêt à vivre l'expérience ?
+                      Prêt à vivre l&apos;expérience ?
                     </p>
                   </div>
                 </div>

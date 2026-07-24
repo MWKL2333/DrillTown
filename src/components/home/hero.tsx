@@ -166,18 +166,29 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 1.4, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          {siteConfig.hero.buttons.map((btn, i) => (
-            <Link key={btn.href} href={btn.href}>
-              <Button
-                variant={i === 0 ? "premium" : "outline"}
-                size="xl"
-                className="text-base min-w-[220px] group animate-glow-pulse"
-              >
-                {i === 0 ? <Play className="fill-current" /> : <MessageCircle />}
-                {btn.text}
-              </Button>
-            </Link>
-          ))}
+          <a href={`fivem://connect/${siteConfig.server.cfx}`}>
+            <Button
+              variant="premium"
+              size="xl"
+              className="text-base min-w-[240px] group animate-glow-pulse font-bold tracking-wider"
+              style={{
+                background: "linear-gradient(135deg, #7C3AED 0%, #A855F7 100%)",
+              }}
+            >
+              <Play className="fill-current text-white" />
+              LANCER FIVEM (1-CLIC)
+            </Button>
+          </a>
+          <Link href={siteConfig.discord.inviteUrl} target="_blank">
+            <Button
+              variant="outline"
+              size="xl"
+              className="text-base min-w-[220px] group border-[#5865F2]/50 hover:bg-[#5865F2]/20 text-white"
+            >
+              <MessageCircle className="text-[#5865F2]" />
+              REJOINDRE LE DISCORD
+            </Button>
+          </Link>
         </motion.div>
 
         <motion.div
