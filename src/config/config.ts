@@ -39,6 +39,7 @@ export const siteConfig = {
   navigation: [
     { label: "Accueil", href: "/" },
     { label: "Présentation", href: "/presentation" },
+    { label: "Whitelist", href: "/whitelist" },
     { label: "Connexion", href: "/connexion" },
     { label: "Discord", href: "/discord" },
     { label: "Règlement", href: "/reglement" },
